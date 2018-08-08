@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="bn" lang="bn" dir="ltr">
+
+<!-- Mirrored from www.webcoachbd.com/php-basic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:12:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Sptemplates/protostar/images/log/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/E/file.1.delaye"/>
+	 <meta property="og:image" content="templates/protostar/images/webcoachbd_s.jpg"/>
+	  <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="পিএইচপি, সার্ভার, সাইড, প্রোগ্রামিং, ল্যাংগুয়েজ, বেসিক, ধারাবাহিক, বাংলা, টিউটোরিয়াল" />
+  <meta name="author" content="মো:রেজওয়ানুল আলম" />
+  <meta name="description" content="পিএইচপি একটা সার্ভার সাইড প্রোগ্রামিং ল্যাংগুয়েজ। পিএইচপির সব বেসিক বিষয়াদির ধারাবাহিক বাংলা টিউটোরিয়াল।" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>পিএইচপি টিউটোরিয়াল | বেসিক (PHP Tutorial Basics)</title>
+  <link href="php-basic.html" rel="canonical" />
+  <link href="templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="component/search/indexe3bd.html?Itemid=111&amp;format=opensearch" rel="search" title="Search Webcoachbd" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="templates/protostar/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="templates/protostar/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="templates/protostar/source/jquery.fancybox.css" type="text/css" />
+  <script src="media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="media/system/js/caption.js" type="text/javascript"></script>
+  <script src="media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="templates/protostar/js/template.js" type="text/javascript"></script>
+  <script src="templates/protostar/js/tooltip.js" type="text/javascript"></script>
+  <script src="templates/protostar/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+  <script src="templates/protostar/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+  <script>
+		  function wchbd_master_share_22(whr){
+			u = "php-basic.html";
+			t = document.title;
+			if(whr == 1){
+				share_url = "http://twitter.com/share?url="+encodeURIComponent(u)+"&text="+encodeURIComponent(t);
+			}else if(whr == 2){
+				share_url = "http://www.facebook.com/sharer.php?u="+encodeURIComponent(u);
+			}else if(whr == 3){
+				share_url = "https://plus.google.com/share?url="+encodeURIComponent(u);
+			} else {
+				share_url = "http://www.linkedin.com/shareArticle?url="+encodeURIComponent(u)+"&title="+encodeURIComponent(t);
+			}
+			
+			window.open(share_url, "sharer","toolbar=0,status=0,left=150,top=100,width=600,height=500");
+			
+			return false;
+		}
+		
+		
+		</script>
+
+	
+			<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #0099cc;
+			background-color: #ffffff		}
+		a
+		{
+			color: #0099cc;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #0099cc;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+	
+	     <style type="text/css">
+               @media only screen and (min-width: 320px) and (max-width: 767px) {
+			
+			#content{
+				padding:10px;
+                                
+			}
+                           
+
+		}
+
+
+		@media only screen and (min-width: 1024px) and (max-width: 1159px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1920px){
+			#sidebar{
+				width:13%;
+			}
+			#content{
+				width:61%;
+				margin:0;
+			}
+		}
+	   </style>
+	
+<style type="text/css">
+#FB_box{
+	display : none;
+	position:fixed;
+	bottom:-6%;
+	z-index:999;
+	left:50%;
+	margin-left:-140px;
+	background:#fff;
+}
+#FB_box_close{
+	position:absolute;
+	z-index:9999;
+	top:0;
+	right:10px;
+	cursor: pointer;
+}
+</style>
+
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+        <script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery(".fancybox").fancybox();
+		}); 
+	</script>
+</head>
+
+<body class="site com_content view-article no-layout no-task itemid-111 fluid">
+
+	<!-- Body -->
+	<div class="body">
+	
+	<!--- gggle analytcs start -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-18252283-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	
+	<!-- gggle anltcs end -->	
+	
+	
+
+
+		<div class="container-fluid">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+                                      <a class="brand pull-left" href="index.html">
+						<span class="site-title" title="Webcoachbd">echo &quot;এবার ঘরে বসে হোন ডেভলপার&quot;;</span>											</a>
+                                       <div id="animator">Webcoachbd</div>
+					<div class="header-search pull-right">
+						<div class="search">
+	<form action="http://www.webcoachbd.com/php-basic" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Search...</label> <input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox search-query" type="text" size="40" value="টিউটোরিয়াল খুজুন (বাংলায়)"  onblur="if (this.value=='') this.value='টিউটোরিয়াল খুজুন (বাংলায়)';" onfocus="if (this.value=='টিউটোরিয়াল খুজুন (বাংলায়)') this.value='';" /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">অনুসন্ধান</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="111" />
+	</form>
+</div>
+
+					</div>
+				</div>
+			</header>
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+											<nav class="navigation nav-collapse collapse" role="navigation">
+							<ul class="nav menu">
+<li class="item-516 parent"><a href="forum.html" >ফোরাম</a></li></ul>
+<ul class="nav menu">
+<li class="item-119"><a href="project-page.html" >প্রজেক্ট</a></li><li class="item-373"><a href="webcoachbdEditor/onlineEditor.html" target="_blank" > কোড এডিটর</a></li><li class="item-583"><a href="tips-guru.html" >টিপসগুরু</a></li><li class="item-566"><a href="co-operation.html" >সহযোগিতা করুন</a></li><li class="item-115"><a href="about-us.html" >আমাদের সম্পর্কে</a></li></ul>
+
+						</nav>
+									</div>
+			</div>
+                          
+				                           
+
+                        
+<ul class="breadcrumb">
+	<li class="active"><span class="divider icon-location"></span></li><li><a href="index.html" class="pathway">নীড়পাতা</a><span class="divider"><img src="media/system/images/arrow.png" alt="" /></span></li><li class="active"><span>পিএইচপি বেসিক</span></li></ul>
+
+			<div class="row-fluid">
+									<!-- Begin Sidebar -->
+					<div id="sidebar" class="span3">
+						<div class="sidebar-nav">
+									<div class="moduletable tran-header">
+					<h3>টিউটোরিয়াল সমূহ</h3>
+					<ul class="nav menu">
+<li class="item-109 parent"><a href="index.html" >মুল পাতা</a></li><li class="item-118 parent"><a href="html-tutorials.html" >এইচটিএমএল টিউটোরিয়াল</a></li><li class="item-110 parent"><a href="css-tutorials.html" >সিএসএস টিউটোরিয়াল</a></li><li class="item-121 parent"><a href="javascript-tutorials.html" >জাভাস্ক্রিপ্ট টিউটোরিয়াল</a></li><li class="item-355 parent"><a href="jquery-tutorials.html" >জেকোয়েরি টিউটোরিয়াল</a></li><li class="item-124 parent"><a href="xml-tutorial.html" >এক্স এম এল (XML)</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> পিএইচপি টিউটোরিয়াল </h3>
+					<ul class="nav menu">
+<li class="item-111 current active deeper parent"><a href="php-basic.html" >পিএইচপি বেসিক</a><ul class="nav-child unstyled small"><li class="item-163"><a href="php-basic/php-installation.html" >ইনস্টলেশন</a></li><li class="item-164"><a href="php-basic/php-writting.html" >কোথায় লিখবেন</a></li><li class="item-165"><a href="php-basic/php-basic-syntax.html" >ব্যাসিক Syntax</a></li><li class="item-174"><a href="php-basic/php-variables" >ভেরিয়েবল (Variables)</a></li><li class="item-601"><a href="php-basic/data-type.html" >ডেটা টাইপ</a></li><li class="item-175"><a href="php-basic/php-string.html" >স্ট্রিং (String)</a></li><li class="item-176"><a href="php-basic/php-operators" >অপারেটর (Operators)</a></li><li class="item-177"><a href="php-basic/php-conditional-statement.html" >কন্ডিশনাল স্টেটমেন্ট</a></li><li class="item-178"><a href="php-basic/php-loop" >লুপ (Loop)</a></li><li class="item-224"><a href="php-basic/php-while-loop.html" >While লুপ</a></li><li class="item-225"><a href="php-basic/php-for-loop.html" >For লুপ</a></li><li class="item-179"><a href="php-basic/php-array.html" >অ্যারে (Array)</a></li><li class="item-180"><a href="php-basic/php-function.html" >ফাংশন (Function)</a></li><li class="item-181"><a href="php-basic/php-form.html" >PHP ফর্ম</a></li><li class="item-226"><a href="php-basic/php-get-method.html" >$_GET মেথড</a></li><li class="item-227"><a href="php-basic/php-post-method.html" >$_POST মেথড</a></li></ul></li><li class="item-112 parent"><a href="advanced-php.html" >এডভান্সড পিএইচপি</a></li><li class="item-113 parent"><a href="php-framework.html" >পিএইচপি ফ্রেমওয়ার্ক</a></li><li class="item-374 parent"><a href="codeigniter.html" >কোডইগনাইটার</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ডেটাবেস</h3>
+					<ul class="nav menu">
+<li class="item-114 parent"><a href="database-tutorials.html" >এস কিউয়েল (SQL)</a></li><li class="item-626 parent"><a href="advanced-sql.html" >এডভান্স এসকিউয়েল</a></li><li class="item-376 parent"><a href="database-design.html" >ডেটাবেস ডিজাইন</a></li><li class="item-190 parent"><a href="php-database.html" >পিএইচপি এবং ডেটাবেস</a></li><li class="item-191 parent"><a href="domain-hosting.html" >হোস্টিং টিউটোরিয়াল</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ফটোশপ </h3>
+					<ul class="nav menu">
+<li class="item-123 parent"><a href="photoshop-basic.html" >ফটোশপ বেসিক</a></li><li class="item-122 parent"><a href="advanced-photoshop.html" >এডভান্সড ফটোশপ</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> সিএমএস</h3>
+					<ul class="nav menu">
+<li class="item-278 parent"><a href="joomla-tutorial.html" >জুমলা টিউটোরিয়াল</a></li><li class="item-585 parent"><a href="wordpress-tutorials.html" >ওয়ার্ডপ্রেস টিউটোরিয়াল</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ওয়েবমাস্টার </h3>
+					<ul class="nav menu">
+<li class="item-303 parent"><a href="seo-tutorials.html" >সার্চ ইন্জিন অপটিমাইজেশন</a></li></ul>
+		</div>
+	
+						</div>
+					</div>
+					<!-- End Sidebar -->
+								<main id="content" role="main" class="span6">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+				<div class="page-header">
+		<h2 itemprop="name">
+												পিএইচপি টিউটোরিয়াল | বেসিক (PHP Tutorial Basics)									</h2>
+							</div>
+					
+	
+	
+		
+								<div itemprop="articleBody">
+		<ul><a  class="stransition" target="_blank" onclick="return wchbd_master_share_22(1);" href="javascript:void();"><img class="kTip" title="টুইটারে বন্ধুদের জানান" alt="Twitter Share" src="plugins/content/socialshare/twitter.png"></a>
+		
+		
+		<a  class="stransition" target="_blank" onclick="return wchbd_master_share_22(2);" href="javascript:void();"><img class="kTip" title="ফেইসবুক বন্ধুদের জানান" alt="Facebook Share" src="plugins/content/socialshare/facebook.png"></a>
+		
+		
+		<a  class="stransition" target="_blank" onclick="return wchbd_master_share_22(3);" href="javascript:void();"><img class="kTip" title="গুগলপ্লাস বন্ধুদের জানান" alt="Google Share" src="plugins/content/socialshare/googleplus.png"></a>
+		
+		<a class="stransition" target="_blank" onclick="return wchbd_master_share_22(4);" href="javascript:void();"><img class="kTip" title="লিংকডইন প্রফেশনালদের জানান" alt="Linkedin Share" src="plugins/content/socialshare/linkedin.png"></a></ul><p>পিএইচপি এর আগে সার্ভার সাইড স্ক্রিপ্টিং সম্পর্কে একটু জানুন:</p>
+<p>আসলে স্ক্রিপ্টিং হচ্ছে প্রোগ্রামের আরেকটা সমার্থক শব্দ। এটা হচ্ছে কিছু instruction এর সেট যেটা run করলে স্বয়ংক্রিয় ভাবে কিছু কাজ হয়। <strong>সার্ভার সাইড</strong> বলতে বুঝানো হচ্ছে এই স্ক্রিপ্ট গুলোকে ইউজারের কম্পিউটার থেকে নিয়ন্ত্রনের বদলে সার্ভার থেকে handle করা। যখন কেউ পিএইচপি ওয়েব পেজ ভিজিট করবে তখন ওয়েব সার্ভার পিএইচপি কোডগুলিকে কিছু Process করবে যেমন:যেটা দেখানো দরকার (Picture,Content etc) সেটা দেখাবে আর যেটাকে লুকানো দরকার (math calculation,file operation etc) তা লুকাবে এবং শেষে HTML এ রুপান্তর করে ইউজারের ওয়েব ব্রাউজারে পাঠাবে।</p>
+<p> </p>
+<p><span class="Apple-style-span" style="font-weight: bold;">পিএইচপি  কি?:</span></p>
+<p>পিএইচপি (<b>P</b>HP:<b>H</b>ypertext <b>P</b>reprocessor ) একটা সার্ভার সাইড স্ক্রিপ্টিং ল্যাংগুয়েজ যেটা মূলত ওয়েব ডেভেলপেমেন্টের জন্য ব্যবহৃত হয়। এই প্রোগ্রামিং ল্যাংগুয়েজটির উদ্দেশ্য হল ওয়েব পেজ দ্রুত তৈরী করা ডাইনামিকালি।</p>
+<p> </p>
+<p><b>পিএইচপি শেখার আগে কি জানা থাকা দরকার:</b></p>
+<p>১. <a href="html-tutorials.html" target="_blank">এইচটিএমএল</a> .বিশেষ করে <a href="html-tutorials/html-form.html" target="_blank">এইচটিএমএল ফর্ম</a></p>
+<p>২. C জানা থাকে তাহলে সুবিধা আছে।</p>
+<p> </p>
+<p>কি কি সফটওয়ার প্রয়োজন ?:</p>
+<p>যেসব ওয়েব সার্ভার পিএইচপি সাপোর্ট করে সেখানে hosting(জায়গা) নিতে হবে। এ জন্য টাকা গুনতে হবে। এ বিষয়টি নিয়ে <a href="domain-hosting.html">হোস্টিং টিউটোরিয়াল</a> বিস্তারিত আলোচনা করা আছে।</p>
+<p>আপাতত শেখার জন্য আমরা নিজের কম্পিউটারেই ওয়েব সার্ভার ইনস্টল করে নেব। এ জন্য নিম্নোক্ত সফটওয়ারগুলি ইনস্টল থাকতে হবে আপনার কম্পিউটারে-</p>
+<p> </p>
+<p><span class="Apple-style-span" style="font-weight: bold;">সার্ভার সফটওয়ার</span></p>
+<p>১. একটা পিএইচপি-compitable ওয়েব সার্ভার যেমন: এপাচি তবে বর্তমানে nginx (উচ্চারন ইনজিন-এক্স) খুব জনপ্রিয়</p>
+<p>২. পিএইচপি (<a href="http://www.php.net/downloads.php" target="_blank" rel="alternate">ডাউনলোড</a>)</p>
+<p>৩. মাইসিক্যুয়েল ডেটাবেস (শুধু তখনই লাগবে যদি আপনার এপ্লিকেশনে ডেটাবেস এর কাজ থাকে)</p>
+<p> </p>
+<p><span class="Apple-style-span" style="font-weight: bold;">ক্লাইন্ট সফটওয়ার</span></p>
+<p>১. ওয়েব ব্রাউজার যেমন মজিলা ফায়ারফক্স (এটাতো সবার ইনস্টল দেয়াই আছে)</p>
+<p>২. একটা টেক্সট এডিটর যেমন:নোটপ্যাড। আপনি পিএইচপি এর জন্য Specialized এডিটরও ব্যাবহার করতে পারেন। ফ্রি কিন্তু সবচেয়ে সমৃদ্ধ এমন একটি এডিটর (IDE) হচ্ছে <a href="https://netbeans.org/downloads/" target="_blank" rel="alternate">নেটবিনস</a>।</p>
+<p> </p>
+<p><strong>[অন্যান্য তথ্যাদি]</strong></p>
+<p>** সব পিএইচপি ফাইল .php দিয়ে শেষ হবে যেমন login.php, test.php, sign_up.php ইত্যাদি।</p>
+<p> </p>
+<p>** সব প্লাটফর্মে সাপোর্ট আছে অর্থ্যাৎ ক্রস প্লাটফর্ম যেমন উইন্ডোজ, লিনাক্স (সব ইউনিক্স সদৃশ অপারেটিং সিস্টেমে চলবে)।</p>
+<p> </p>
+<p>** <a href="http://www.zend.com/" target="_blank" rel="alternate">জেন্ড</a> কোম্পানী পিএইচপি ল্যাংগুয়েজটি ম্যানেজ করে। আসলে যারা ল্যাংগুয়েজটি তৈরী করেছে তারাই এই কোম্পানীটি প্রতিষ্ঠা করেছে। </p>
+<p> </p>
+<p>** পিএইচপি তৈরী শুরু হয়েছিল ১৯৯৪ সালে এবং তখন নাম ছিল <strong>P</strong>ersonal <strong>H</strong>ome <strong>P</strong>age (PHP), এরপর ১৯৯৮ সালে ভার্সন ৩ (Version 3) এসেছিল আর পিএইচপি ৫ ভার্সনটি এসেছে ২০০৪ সালে এবং বর্তমানে সর্বশেষ ভার্সনটি হচ্ছে (স্টাবল) ৫.৬.৫ (১ লা ফ্রেব্রয়ারী, ২০১৫)। বর্তমানে পিএইচপি পূর্নাঙ্গ অবজেক্ট অরিয়েন্টেড এবং পৃথিবীতে সর্বাধিক ব্যবহৃত ল্যাংগুয়েজ ওয়েব ডেভেলপমেন্টের জন্য, যদিও পিএইচপির আগে (ওয়েব ডেভেলপমেন্টের জন্য) আরো অনেক ল্যাংগুয়েজ এসেছিল। পিএইচপি বিখ্যাত হওয়ার কিছু <a href="tips-guru/52-programming-tips/278-why-php-renowned.html" target="_blank" rel="alternate">কারন দেখুন</a>।</p>
+<p> </p>
+<p>** ব্লগ, ইকমার্স থেকে শুরু করে এন্টারপ্রাইজ লেভেলের যেকোন এপ্লিকেশন কিংবা ওয়েবসাইট পিএইচপি দিয়ে বানানো যায়। </p>
+<p> </p>	</div>
+
+	
+	<ul class="pager pagenav">
+	<li class="next">
+		<a class="kTip" href="php-basic/php-installation.html" rel="next" title="পিএইচপি ইনস্টলেশন টিউটোরিয়াল (PHP Installation Tutorial in Bangla)">পরবর্তী &gt;</a>
+	</li>
+</ul>
+						 </div>
+					
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<div class="well "><h3 class="page-header">হোস্টিং স্পন্সর</h3><div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="https://www.w3space.net/bn/" target="_blank"
+							title="হোস্টিং স্পন্সর">
+							<img
+								src="../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/banners/sponsor.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75/file.3d.delaye"
+								alt="হোস্টিং স্পন্সর"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+</div>
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+		</div>
+	</div>
+
+	<footer class="footer" role="contentinfo">
+		<div class="container-fluid">
+
+			<div class="footer1 pull-left">কপিরাইট &#169; 2015 Webcoachbd. সর্বস্বত্ব সংরক্ষিত। হোস্টিং স্পন্সর <a target="_blank" href="https://www.w3space.net/bn">W3space Technologies</a></div>
+			<p class="pull-right no-margin">
+				<a href="#top" id="back-top">
+					উপরে যান				</a>
+			</p>
+			
+		</div>
+	</footer>
+
+	
+     <a target="_blank" id="social_link1" href="https://www.facebook.com/Webcoachbd"><img src="templates/protostar/images/facebook.png" alt="ফেইসবুক"/></a>
+        <a target="_blank" id="social_link2" href="https://www.twitter.com/Webcoach_BD"><img src="templates/protostar/images/twitter.png" alt="টুইটার"/></a>
+</body>
+
+<!-- Mirrored from www.webcoachbd.com/php-basic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:12:51 GMT -->
+</html>

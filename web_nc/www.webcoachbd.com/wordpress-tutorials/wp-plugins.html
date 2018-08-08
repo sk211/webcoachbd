@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="bn" lang="bn" dir="ltr">
+
+<!-- Mirrored from www.webcoachbd.com/wordpress-tutorials/wp-plugins by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:55:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Sptemplates/protostar/images/log/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/E/file.1.delaye"/>
+	 <meta property="og:image" content="../templates/protostar/images/webcoachbd_s.jpg"/>
+	  <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="ওয়েবকোচবিডি,ওয়েব,ডিজাইন,ডেভেলপমেন্ট,প্রোগ্রামিং,শেখা,বাংলা,সাইট,এইচটিএমএল,সিএসএস,পিএইচপি,ডেটাবেজ,টিউটোরিয়াল,জাভস্ক্রিপ্ট,জেকোয়েরি,জুমলা,ওয়ার্ডপ্রেস,হোস্টিং,কোডইগনাইটার,ফ্রেমওয়ার্ক,আর্টিকেল" />
+  <meta name="description" content="ওয়েবকোচবিডি ওয়েব ডিজাইন ডেভেলপমেন্ট এবং প্রোগ্রামিং শেখার বাংলা সাইট। এইচটিএমএল সিএসএস থেকে পিএইচপি প্রোগ্রামিং এবং ডেটাবেজ ডিজাইন পর্যন্ত বিস্তারিত টিউটোরিয়াল। এছাড়া জাভস্ক্রিপ্ট জেকোয়েরি জুমলা ওয়ার্ডপ্রেস হোস্টিং ও কোডইগনাইটার ফ্রেমওয়ার্ক আর্টিকেল।" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>ওয়ার্ডপ্রেস প্লাগিন টিউটোরিয়াল (Wordpress Plugin Tutorial)</title>
+  <link href="wp-plugins.html" rel="canonical" />
+  <link href="../templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="../component/search/index322b.html?Itemid=592&amp;format=opensearch" rel="search" title="Search Webcoachbd" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="../templates/protostar/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="../templates/protostar/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../templates/protostar/source/jquery.fancybox.css" type="text/css" />
+  <script src="../media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="../media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="../media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="../media/system/js/caption.js" type="text/javascript"></script>
+  <script src="../media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/template.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/tooltip.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+  <script src="../templates/protostar/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+  <script>
+		  function wchbd_master_share_291(whr){
+			u = "wp-plugins.html";
+			t = document.title;
+			if(whr == 1){
+				share_url = "http://twitter.com/share?url="+encodeURIComponent(u)+"&text="+encodeURIComponent(t);
+			}else if(whr == 2){
+				share_url = "http://www.facebook.com/sharer.php?u="+encodeURIComponent(u);
+			}else if(whr == 3){
+				share_url = "https://plus.google.com/share?url="+encodeURIComponent(u);
+			} else {
+				share_url = "http://www.linkedin.com/shareArticle?url="+encodeURIComponent(u)+"&title="+encodeURIComponent(t);
+			}
+			
+			window.open(share_url, "sharer","toolbar=0,status=0,left=150,top=100,width=600,height=500");
+			
+			return false;
+		}
+		
+		
+		</script>
+
+	
+			<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #0099cc;
+			background-color: #ffffff		}
+		a
+		{
+			color: #0099cc;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #0099cc;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+	
+	     <style type="text/css">
+               @media only screen and (min-width: 320px) and (max-width: 767px) {
+			
+			#content{
+				padding:10px;
+                                
+			}
+                           
+
+		}
+
+
+		@media only screen and (min-width: 1024px) and (max-width: 1159px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1920px){
+			#sidebar{
+				width:13%;
+			}
+			#content{
+				width:61%;
+				margin:0;
+			}
+		}
+	   </style>
+	
+<style type="text/css">
+#FB_box{
+	display : none;
+	position:fixed;
+	bottom:-6%;
+	z-index:999;
+	left:50%;
+	margin-left:-140px;
+	background:#fff;
+}
+#FB_box_close{
+	position:absolute;
+	z-index:9999;
+	top:0;
+	right:10px;
+	cursor: pointer;
+}
+</style>
+
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+        <script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery(".fancybox").fancybox();
+		}); 
+	</script>
+</head>
+
+<body class="site com_content view-article no-layout no-task itemid-592 fluid">
+
+	<!-- Body -->
+	<div class="body">
+	
+	<!--- gggle analytcs start -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-18252283-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	
+	<!-- gggle anltcs end -->	
+	
+	
+
+
+		<div class="container-fluid">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+                                      <a class="brand pull-left" href="../index.html">
+						<span class="site-title" title="Webcoachbd">echo &quot;এবার ঘরে বসে হোন ডেভলপার&quot;;</span>											</a>
+                                       <div id="animator">Webcoachbd</div>
+					<div class="header-search pull-right">
+						<div class="search">
+	<form action="http://www.webcoachbd.com/wordpress-tutorials/wp-plugins" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Search...</label> <input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox search-query" type="text" size="40" value="টিউটোরিয়াল খুজুন (বাংলায়)"  onblur="if (this.value=='') this.value='টিউটোরিয়াল খুজুন (বাংলায়)';" onfocus="if (this.value=='টিউটোরিয়াল খুজুন (বাংলায়)') this.value='';" /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">অনুসন্ধান</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="592" />
+	</form>
+</div>
+
+					</div>
+				</div>
+			</header>
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+											<nav class="navigation nav-collapse collapse" role="navigation">
+							<ul class="nav menu">
+<li class="item-516 parent"><a href="../forum.html" >ফোরাম</a></li></ul>
+<ul class="nav menu">
+<li class="item-119"><a href="../project-page.html" >প্রজেক্ট</a></li><li class="item-373"><a href="../webcoachbdEditor/onlineEditor.html" target="_blank" > কোড এডিটর</a></li><li class="item-583"><a href="../tips-guru.html" >টিপসগুরু</a></li><li class="item-566"><a href="../co-operation.html" >সহযোগিতা করুন</a></li><li class="item-115"><a href="../about-us.html" >আমাদের সম্পর্কে</a></li></ul>
+
+						</nav>
+									</div>
+			</div>
+                          
+				                           
+
+                        
+<ul class="breadcrumb">
+	<li class="active"><span class="divider icon-location"></span></li><li><a href="../index.html" class="pathway">নীড়পাতা</a><span class="divider"><img src="../media/system/images/arrow.png" alt="" /></span></li><li><a href="../wordpress-tutorials.html" class="pathway">ওয়ার্ডপ্রেস টিউটোরিয়াল</a><span class="divider"><img src="../media/system/images/arrow.png" alt="" /></span></li><li class="active"><span>প্লাগিন মেনু</span></li></ul>
+
+			<div class="row-fluid">
+									<!-- Begin Sidebar -->
+					<div id="sidebar" class="span3">
+						<div class="sidebar-nav">
+									<div class="moduletable tran-header">
+					<h3>টিউটোরিয়াল সমূহ</h3>
+					<ul class="nav menu">
+<li class="item-109 parent"><a href="../index.html" >মুল পাতা</a></li><li class="item-118 parent"><a href="../html-tutorials.html" >এইচটিএমএল টিউটোরিয়াল</a></li><li class="item-110 parent"><a href="../css-tutorials.html" >সিএসএস টিউটোরিয়াল</a></li><li class="item-121 parent"><a href="../javascript-tutorials.html" >জাভাস্ক্রিপ্ট টিউটোরিয়াল</a></li><li class="item-355 parent"><a href="../jquery-tutorials.html" >জেকোয়েরি টিউটোরিয়াল</a></li><li class="item-124 parent"><a href="../xml-tutorial.html" >এক্স এম এল (XML)</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> পিএইচপি টিউটোরিয়াল </h3>
+					<ul class="nav menu">
+<li class="item-111 parent"><a href="../php-basic.html" >পিএইচপি বেসিক</a></li><li class="item-112 parent"><a href="../advanced-php.html" >এডভান্সড পিএইচপি</a></li><li class="item-113 parent"><a href="../php-framework.html" >পিএইচপি ফ্রেমওয়ার্ক</a></li><li class="item-374 parent"><a href="../codeigniter.html" >কোডইগনাইটার</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ডেটাবেস</h3>
+					<ul class="nav menu">
+<li class="item-114 parent"><a href="../database-tutorials.html" >এস কিউয়েল (SQL)</a></li><li class="item-626 parent"><a href="../advanced-sql.html" >এডভান্স এসকিউয়েল</a></li><li class="item-376 parent"><a href="../database-design.html" >ডেটাবেস ডিজাইন</a></li><li class="item-190 parent"><a href="../php-database.html" >পিএইচপি এবং ডেটাবেস</a></li><li class="item-191 parent"><a href="../domain-hosting.html" >হোস্টিং টিউটোরিয়াল</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ফটোশপ </h3>
+					<ul class="nav menu">
+<li class="item-123 parent"><a href="../photoshop-basic.html" >ফটোশপ বেসিক</a></li><li class="item-122 parent"><a href="../advanced-photoshop.html" >এডভান্সড ফটোশপ</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> সিএমএস</h3>
+					<ul class="nav menu">
+<li class="item-278 parent"><a href="../joomla-tutorial.html" >জুমলা টিউটোরিয়াল</a></li><li class="item-585 active deeper parent"><a href="../wordpress-tutorials.html" >ওয়ার্ডপ্রেস টিউটোরিয়াল</a><ul class="nav-child unstyled small"><li class="item-586"><a href="wp-install.html" >ওয়ার্ডপ্রেস ইনস্টল</a></li><li class="item-587"><a href="wp-post-tut.html" >পোস্ট তৈরী</a></li><li class="item-588"><a href="wp-media" >মিডিয়া মেনু</a></li><li class="item-589"><a href="wp-pages.html" >পেজ মেনু</a></li><li class="item-590"><a href="wp-comments.html" >কমেন্ট মেনু</a></li><li class="item-591"><a href="wp-appeance.html" >অ্যাপিয়ারেন্স মেনু</a></li><li class="item-592 current active"><a href="wp-plugins.html" >প্লাগিন মেনু</a></li><li class="item-593"><a href="wp-users.html" >ইউজার মেনু</a></li><li class="item-594"><a href="wp-tools.html" >টুলস মেনু</a></li><li class="item-595"><a href="wp-settings.html" >সেটিংস মেনু</a></li></ul></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ওয়েবমাস্টার </h3>
+					<ul class="nav menu">
+<li class="item-303 parent"><a href="../seo-tutorials.html" >সার্চ ইন্জিন অপটিমাইজেশন</a></li></ul>
+		</div>
+	
+						</div>
+					</div>
+					<!-- End Sidebar -->
+								<main id="content" role="main" class="span6">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+				<div class="page-header">
+		<h2 itemprop="name">
+												ওয়ার্ডপ্রেস প্লাগিন টিউটোরিয়াল (Wordpress Plugin Tutorial)									</h2>
+							</div>
+							
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu">
+																<li class="email-icon"> <a href="../component/mailto/index3e6f.html?tmpl=component&amp;template=protostar&amp;link=3965bd421692c17d32d7e6b9cba23e24ee42d91f" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">Email</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+			
+			<div class="article-info muted">
+			<dl class="article-info">
+			<dt class="article-info-term">তথ্য</dt>
+
+									
+			
+												<dd class="modified">
+						<span class="icon-calendar"></span>
+						<time datetime="2015-03-16T10:15:09+06:00" itemprop="dateModified">
+							সর্বশেষ আপডেট হয়েছে: 16 মার্চ 2015						</time>
+					</dd>
+													<dd class="create">
+						<span class="icon-calendar"></span>
+						<time datetime="2014-12-12T14:58:31+06:00" itemprop="dateCreated">
+							রচিত হয়েছিল: 12 ডিসেম্বর 2014						</time>
+					</dd>
+				
+										</dl>
+		</div>
+	
+	
+		
+								<div itemprop="articleBody">
+		<ul><a  class="stransition" target="_blank" onclick="return wchbd_master_share_291(1);" href="javascript:void();"><img class="kTip" title="টুইটারে বন্ধুদের জানান" alt="Twitter Share" src="../plugins/content/socialshare/twitter.png"></a>
+		
+		
+		<a  class="stransition" target="_blank" onclick="return wchbd_master_share_291(2);" href="javascript:void();"><img class="kTip" title="ফেইসবুক বন্ধুদের জানান" alt="Facebook Share" src="../plugins/content/socialshare/facebook.png"></a>
+		
+		
+		<a  class="stransition" target="_blank" onclick="return wchbd_master_share_291(3);" href="javascript:void();"><img class="kTip" title="গুগলপ্লাস বন্ধুদের জানান" alt="Google Share" src="../plugins/content/socialshare/googleplus.png"></a>
+		
+		<a class="stransition" target="_blank" onclick="return wchbd_master_share_291(4);" href="javascript:void();"><img class="kTip" title="লিংকডইন প্রফেশনালদের জানান" alt="Linkedin Share" src="../plugins/content/socialshare/linkedin.png"></a></ul><p>ওয়ার্ডপ্রেস ইনস্টল দিলেই একটা ব্লগ সাইট হয়ে গেল এবং বাই ডিফল্ট এখানে ব্যাকইন্ড থেকে প্রচুর ফাংশনালিটি যোগ করা যায়। যেগুলি আমাদের পুরো ওয়ার্ডপ্রেসের টিউটোরিয়াল জুড়ে রয়েছে। তবে যদি এমন কোন কাজ বা ফাংশনালিটি আপনি আপনার সাইটে যোগ করতে চান যেটা ওয়ার্ডপ্রেসে নেই তখন প্লাগিন ব্যবহার করে সেসব ফাংশনালিটি যোগ করা যায়। যেমন আপনি চাইলেন যে আপনার সাইটে একটা "যোগাযোগ" পেজ থাকুক যেখানে ইউজার গেলে একটা ফর্ম আসবে এবং সেই ফর্ম পূরন করে সাবমিট করলে আমার মেইলে নটিফিকেশন যাবে। তাছাড়া যেসব লেখা সহ ফর্ম সাবমিট করেছে সেগুলিও দেখা এবং ম্যানেজ করা যাবে। এই কাজ করতে হলে আপনাকে প্লাগিন দিয়ে করতে হবে।</p>
+<p> </p>
+<p>** যে ফাংশনালিটির প্লাগিন দরকার সে সংক্রান্ত কিওয়ার্ড লিখে গুগলে সার্চ দিবেন সাথে সাথে রেজাল্ট পাবেন (যেমন "wordpress contact us plugin" লিখে গুগলে সার্চ দিয়ে দেখুন প্রচুর ফ্রি প্লাগিনের লিংক চলে আসবে)। বেশিরভাগ প্লাগিনই <a href="https://wordpress.org/plugins/">https://wordpress.org/plugins/</a> ফ্রি পাবেন। যদি এখানে না থাকে তাহলে  ডেভলপারকে দিয়ে বানিয়ে নিতে হবে। আর যদি পিএইচপি ভাল জানেন তাহলে নিজে নিজেই প্লাগিন বানিয়ে নিতে পারেন।</p>
+<p> </p>
+<p>প্লাগিন মেনুটি খুব গুরত্বপূর্ন। প্রথমে এখানে (Plugin-&gt;Installed Plugins) গেলে http://localhost/tutorial/wp-admin/plugins.php গেলে সব ইনস্টলকৃত প্লাগিনের তালিকা দেখতে পাবেন। </p>
+<p><a class="fancybox" title="Plugin Lists" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/plugin_list.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75463/file.7fe.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto; border-width: 2px;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/plugin_list.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75463/file.7fe.delaye" alt="" width="600" /></a></p>
+<p> </p>
+<p>"Akismet" এবং "Hello Dolly" এদুটি ডিফল্ট প্লাগিন, ইনস্টল দেয়াই থাকে। প্রতিটি প্লাগিনের নিচে দেখুন "Activate" লিংক আছে। এখানে ক্লিক করলে প্লাগিনটির সাইটে সক্রিয় হবে এবং তখন এই "Activate" লিংকের স্থলে "Deactivate" লিংক দেখাবে। "Edit" লিংকে ক্লিক করে ব্রাউজার থেকেই প্লাগিনটির ফাইলগুলি মডিফাই করা যায়। Deactivate করলে "Delete" লিংক আসে এবং প্লাগিনটি সম্পূর্ন মুছেও দেয়া যায়।</p>
+<p>ডান দিকে উপরে একটি সার্চ বক্স আছে এখান থেকে প্লাগিন সার্চ করা যায় যদি প্রচুর প্লাগিন ইনস্টল করা থাকে।</p>
+<p> </p>
+<p><strong>নতুন প্লাগিন ইনস্টল</strong></p>
+<p>একটা ফ্রি প্লাগিন ইনস্টল দিয়ে দেখাচ্ছি। "Contact Form 7" একটি বিখ্যাত প্লাগিন। Contact us/ যোগাযোগ টাইপের পেজ বানানোর জন্য। প্রথমেই প্লাগিনটি https://wordpress.org/plugins/contact-form-7/ এখান থেকে ডাউনলোড করুন। এরপর Plugins-&gt; Add New এখানে যান এবং উপরে "Upload Plugin" বাটনে/লিংকে ক্লিক করুন নিচের মত আসবে। (ইন্টারনেট কানেকশন থাকলে http://localhost/tutorial/wp-admin/plugin-install.php এই লিংকে গেলে অবশ্য প্লাগিনের পোর্টালটি লোড হয়। এখান থেকে সার্চ করে যেকোন প্লাগিন বের করে "Install Now" বাটনে ক্লিক করলে প্লাগিনটি ইনস্টল হয়।)</p>
+<p><a class="fancybox" title="Plugin Lists" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/upload_plugin.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI754/file.800.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto; border-width: 2px;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/upload_plugin.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI754/file.800.delaye" alt="" width="600" /></a></p>
+<p> </p>
+<p> </p>
+<p>"Choose File" দিয়ে জিপ (contact-form-7.4.1.zip) ফাইলটি সিলেক্ট করে দিন এবং "Install Now" তে ক্লিক করুন ব্যাস প্লাগিনটি ইনস্টল হয়ে গেল। ইনস্টল হবার সাথে সাখে প্লাগিনটি সক্রিয় করার অপশন আসবে। এখানে "Activate Plugin" লিংকে ক্লিক করে প্লাগিনটি সক্রিয় করুন। প্লাগিনটি সক্রিয় করলে "Contact" নামে একটি মেনু আসবে। এই মেনু থেকে নতুন ফর্ম যোগ করা যায় এবং সবচেয়ে বড় ফিচার হল ফর্ম কাস্টমাইজ করা যায় তথা নিজের ইচ্ছেমত ফর্ম ফিল্ড যোগ করা যায়। একটি নতুন ফর্ম তৈরী করতে "Contact-&gt;Add New" তে ক্লিক করুন।</p>
+<p> </p>
+<p><a class="fancybox" title="Add New Form" href="../images/contact-form.jpg"><img style="display: block; margin-left: auto; margin-right: auto; border: 2px solid #000; border-width: 2px;" src="../images/contact-form.jpg" alt="" width="600" /></a></p>
+<p>এখানে দেখুন "Comments" মেনুর পর "Contact" মেনুটি এসেছে যেটা প্লাগিনটি ইনস্টল দেয়ার আগে ছিলনা। যাই হোক এখন যদি ইংরেজিতে একটি ফর্ম তৈরী করতে চান তাহলে ডান দিকে "Add New" বাটনে ক্লিক করে কাজ শুরু করতে পারে আর চাইলে অন্য ভাষাতেও করতে পারেন। সেক্ষেত্রে  "Select language" ড্রপডাউন থেকে ভাষাটি সিলেক্ট করে "Add New" তে ক্লিক করুন। এরপর নিচের মত আসবে এখানে ফর্মটি কিভাবে বানাবেন, কয়টি ফিল্ড থাকবে, কি কি ফিল্ড থাকবে ইত্যাদি ঠিক করে দিন।</p>
+<p><a class="fancybox" title="Contact Form 7" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI754/file.803.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto; border-width: 2px;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI754/file.803.delaye" alt="" width="600" /></a></p>
+<p> </p>
+<p>ছবিতে দেখুন ডানদিকে "Generate Tag" ড্রপডাউন এ সব রকম ফিল্ড আছে যেমন : ইমেইল, টেক্সট ফিল্ড, চেকবক্স, রেডিও বাটন এমনকি ড্রপডাউন অপশন। যেমন আমি "URL" সিলেক্ট করেছি। সিলেক্ট করার পর ফিল্ডটি বাধ্যতামুলক করতে চাইলে  "Required field?" চেকবক্সটি টিকমার্ক দিন তাহলে ইউজারকে এই ফিল্ডটি অবশ্যই পূরন করতে হবে। ফিল্ডটির id, class ইত্যাদি দিতে চাইলে সংশ্লিষ্ট ফিল্ডগুলিতে যে নাম দিবেন সেটাই id , class হয়ে যাবে। এরপর "Copy this code and paste it into the form left" এই ফিল্ড থেকে মানটি কপি করে বামে যে জায়গায় ফিল্ডটি দেখতে চান সেখানে বসিয়ে দিন এবং "And, put this code into the Mail fields below" এখানকার মানটি নিয়ে ঐ বরাবর নিচে "Message body:" তে বসিয়ে দিন। এখন সবার উপরে "Save" বাটনে ক্লিক করুন ব্যাসটি একটি ফর্ম তৈরী হয়ে গেল।</p>
+<p>এবার তৈরী করা ফর্মটির কোড "Save" বাটনের উপরেই দেখতে পারবেন (সেভ করার পর)। অনেকটা দেখতে হবে এরুপ</p>
+<p>[contact-form-7 id="47" title="contact us"]</p>
+<p>এবার এই কোড যেকোন পেজ বা পোস্ট বা উইজেটে দিয়ে দিন যেমন</p>
+<p><a class="fancybox" title="Contact Form7 Shortcode in post" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7_shortcode/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/file.805.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7_shortcode/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/file.805.delaye" alt="" width="600" /></a></p>
+<p> </p>
+<p>এবার এই পোস্টটি সাইটের ফ্রন্টইন্ডে দেথুন নিচের মত দেখাবে।</p>
+<p><a class="fancybox" title="Contact Form7 Output" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7_front_end/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/file.807.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/contact_form7_front_end/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/file.807.delaye" alt="" width="600" /></a></p>
+<p>** এত ধরনের প্লাগিন আছে যে, হিসেবে করলে হাজার পার হবে। একেক প্লাগিনের একেক রকম কাজ। </p>
+<p> </p>
+<p>"Plugins" মেনুর সর্বশেষ <strong>সাবমেনু "Editor"</strong> এ গিয়ে ইনস্টলকৃত যেকোন প্লাগিনের যেকোন ফাইল ব্রাউজার থেকেই সম্পাদনা করতে পারবেন। এটা তখনি দরকার হবে যখন প্লাগিনের ফাইলে সরাসরি একসেস থাকবেনা তানাহলে তো ফাইলটি FTP বা cPanel থেকে নামিয়ে এডিট করে আপলোড করাই ভাল হবে। এতে করে লোকালি ফাইলটির একটি ব্যাকআপ থাকল।</p>
+<p><a class="fancybox" title="Plugin File Edit" href="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/edit_plugin.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75464/file.809.delaye"><img style="border: 2px solid #000; display: block; margin-left: auto; margin-right: auto; border-width: 2px;" src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/edit_plugin.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75464/file.809.delaye" alt="" width="600" /></a></p>
+<p> </p>
+<p>"Select Plugin to edit" ড্রপডাউনে সব ইনস্টলকৃত প্লাগিনের তালিকা আছে। যেমন আমি "Contact Form 7" প্লাগিনটি সিলেক্ট করে "Select" বাটনে ক্লিক করে প্লাগিনটির ফাইলের তালিকা এনেছি এবং এখন ইচ্ছেমত এডিট করতে পারব। ড্রপডাউনের নিচেই দেখুন সব ফাইলের লিংক আছে, যেটাতে ক্লিক করবেন সেটার মাঝের এডিটরটিতে খুলবে। এডিট শেষ হলে নিচে "Update File" বাটন আছে এখানে ক্লিক করে ফাইলটি আপডেট করুন।</p>	</div>
+
+	
+	<ul class="pager pagenav">
+	<li class="previous">
+		<a class="kTip" href="wp-appeance.html" rel="prev" title="ওয়ার্ডপ্রেস থিম ব্যবস্থাপনা টিউটোরিয়াল (Wordpress Theme/Appearance Management Tutorial)">&lt; পূর্ববর্তী</a>
+	</li>
+	<li class="next">
+		<a class="kTip" href="wp-users.html" rel="next" title="ওয়ার্ডপ্রেস ইউজার ব্যবস্থাপনা (Wordpress User Management)">পরবর্তী &gt;</a>
+	</li>
+</ul>
+						 </div>
+					
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<div class="well "><h3 class="page-header">হোস্টিং স্পন্সর</h3><div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="https://www.w3space.net/bn/" target="_blank"
+							title="হোস্টিং স্পন্সর">
+							<img
+								src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/banners/sponsor.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75/file.3d.delaye"
+								alt="হোস্টিং স্পন্সর"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+</div>
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+		</div>
+	</div>
+
+	<footer class="footer" role="contentinfo">
+		<div class="container-fluid">
+
+			<div class="footer1 pull-left">কপিরাইট &#169; 2015 Webcoachbd. সর্বস্বত্ব সংরক্ষিত। হোস্টিং স্পন্সর <a target="_blank" href="https://www.w3space.net/bn">W3space Technologies</a></div>
+			<p class="pull-right no-margin">
+				<a href="#top" id="back-top">
+					উপরে যান				</a>
+			</p>
+			
+		</div>
+	</footer>
+
+	
+     <a target="_blank" id="social_link1" href="https://www.facebook.com/Webcoachbd"><img src="../templates/protostar/images/facebook.png" alt="ফেইসবুক"/></a>
+        <a target="_blank" id="social_link2" href="https://www.twitter.com/Webcoach_BD"><img src="../templates/protostar/images/twitter.png" alt="টুইটার"/></a>
+</body>
+
+<!-- Mirrored from www.webcoachbd.com/wordpress-tutorials/wp-plugins by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:56:05 GMT -->
+</html>

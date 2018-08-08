@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="bn" lang="bn" dir="ltr">
+
+<!-- Mirrored from www.webcoachbd.com/tips-guru/52-programming-tips by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:44:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Sptemplates/protostar/images/log/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/E/file.1.delaye"/>
+	 <meta property="og:image" content="../templates/protostar/images/webcoachbd_s.jpg"/>
+	  <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="ওয়েবকোচবিডি,টিপসগুরু,বিভিন্ন,প্রোগ্রামিং,ক্যারিয়ার,বিষয়ক,টিপস,পরামর্শ,ইত্যাদি" />
+  <meta name="description" content="ওয়েবকোচবিডি টিপসগুরুতে থাকবে বিভিন্ন প্রোগ্রামিং এবং ক্যারিয়ার বিষয়ক টিপস, পরামর্শ ইত্যাদি" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>ওয়েবকোচবিডি টিপসগুরু </title>
+  <link href="52-programming-tips.html" rel="canonical" />
+  <link href="52-programming-tipsc0d0?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="52-programming-tips7b17?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="../templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="../component/search/index11a3.html?Itemid=583&amp;id=52&amp;format=opensearch" rel="search" title="Search Webcoachbd" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="../templates/protostar/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="../templates/protostar/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../templates/protostar/source/jquery.fancybox.css" type="text/css" />
+  <script src="../media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="../media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="../media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="../media/system/js/caption.js" type="text/javascript"></script>
+  <script src="../media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/template.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/tooltip.js" type="text/javascript"></script>
+  <script src="../templates/protostar/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+  <script src="../templates/protostar/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+  </script>
+  <link type="text/css" rel="stylesheet" href="../plugins/content/CodeCitation/styles/shCore.css"/>
+<link type="text/css" rel="stylesheet" href="../plugins/content/CodeCitation/styles/shThemeDefault.css"/>
+<script type="text/javascript" src="../plugins/content/CodeCitation/scripts/shCore.js"></script>
+  <script type="text/javascript" src="../plugins/content/CodeCitation/scripts/shBrushPhp.js"></script>
+  <script type="text/javascript" src="../plugins/content/CodeCitation/scripts/shBrushSql.js"></script>
+  <script type="text/javascript" src="../plugins/content/CodeCitation/scripts/shBrushJScript.js"></script>
+
+	
+			<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #0099cc;
+			background-color: #ffffff		}
+		a
+		{
+			color: #0099cc;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover,
+		.btn-primary
+		{
+			background: #0099cc;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+	
+	     <style type="text/css">
+               @media only screen and (min-width: 320px) and (max-width: 767px) {
+			
+			#content{
+				padding:10px;
+                                
+			}
+                           
+
+		}
+
+
+		@media only screen and (min-width: 1024px) and (max-width: 1159px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+			#sidebar{
+				width:20%;
+			}
+			#content{
+				width:54%;
+				margin:0;
+			}
+		}
+		@media only screen and (min-width: 1920px){
+			#sidebar{
+				width:13%;
+			}
+			#content{
+				width:61%;
+				margin:0;
+			}
+		}
+	   </style>
+	
+<style type="text/css">
+#FB_box{
+	display : none;
+	position:fixed;
+	bottom:-6%;
+	z-index:999;
+	left:50%;
+	margin-left:-140px;
+	background:#fff;
+}
+#FB_box_close{
+	position:absolute;
+	z-index:9999;
+	top:0;
+	right:10px;
+	cursor: pointer;
+}
+</style>
+
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+        <script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery(".fancybox").fancybox();
+		}); 
+	</script>
+</head>
+
+<body class="site com_content view-category no-layout no-task itemid-583 fluid">
+
+	<!-- Body -->
+	<div class="body">
+	
+	<!--- gggle analytcs start -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-18252283-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	
+	<!-- gggle anltcs end -->	
+	
+	
+
+
+		<div class="container-fluid">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+                                      <a class="brand pull-left" href="../index.html">
+						<span class="site-title" title="Webcoachbd">echo &quot;এবার ঘরে বসে হোন ডেভলপার&quot;;</span>											</a>
+                                       <div id="animator">Webcoachbd</div>
+					<div class="header-search pull-right">
+						<div class="search">
+	<form action="http://www.webcoachbd.com/tips-guru" method="post" class="form-inline">
+		<label for="mod-search-searchword" class="element-invisible">Search...</label> <input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox search-query" type="text" size="40" value="টিউটোরিয়াল খুজুন (বাংলায়)"  onblur="if (this.value=='') this.value='টিউটোরিয়াল খুজুন (বাংলায়)';" onfocus="if (this.value=='টিউটোরিয়াল খুজুন (বাংলায়)') this.value='';" /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">অনুসন্ধান</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="583" />
+	</form>
+</div>
+
+					</div>
+				</div>
+			</header>
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+											<nav class="navigation nav-collapse collapse" role="navigation">
+							<ul class="nav menu">
+<li class="item-516 parent"><a href="../forum.html" >ফোরাম</a></li></ul>
+<ul class="nav menu">
+<li class="item-119"><a href="../project-page.html" >প্রজেক্ট</a></li><li class="item-373"><a href="../webcoachbdEditor/onlineEditor.html" target="_blank" > কোড এডিটর</a></li><li class="item-583 current active"><a href="../tips-guru.html" >টিপসগুরু</a></li><li class="item-566"><a href="../co-operation.html" >সহযোগিতা করুন</a></li><li class="item-115"><a href="../about-us.html" >আমাদের সম্পর্কে</a></li></ul>
+
+						</nav>
+									</div>
+			</div>
+                          
+				                           
+
+                        
+<ul class="breadcrumb">
+	<li class="active"><span class="divider icon-location"></span></li><li><a href="../index.html" class="pathway">নীড়পাতা</a><span class="divider"><img src="../media/system/images/arrow.png" alt="" /></span></li><li><a href="../tips-guru.html" class="pathway">টিপসগুরু</a><span class="divider"><img src="../media/system/images/arrow.png" alt="" /></span></li><li class="active"><span>প্রোগ্রামিং টিপস</span></li></ul>
+
+			<div class="row-fluid">
+									<!-- Begin Sidebar -->
+					<div id="sidebar" class="span3">
+						<div class="sidebar-nav">
+									<div class="moduletable tran-header">
+					<h3>টিউটোরিয়াল সমূহ</h3>
+					<ul class="nav menu">
+<li class="item-109 parent"><a href="../index.html" >মুল পাতা</a></li><li class="item-118 parent"><a href="../html-tutorials.html" >এইচটিএমএল টিউটোরিয়াল</a></li><li class="item-110 parent"><a href="../css-tutorials.html" >সিএসএস টিউটোরিয়াল</a></li><li class="item-121 parent"><a href="../javascript-tutorials.html" >জাভাস্ক্রিপ্ট টিউটোরিয়াল</a></li><li class="item-355 parent"><a href="../jquery-tutorials.html" >জেকোয়েরি টিউটোরিয়াল</a></li><li class="item-124 parent"><a href="../xml-tutorial.html" >এক্স এম এল (XML)</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> পিএইচপি টিউটোরিয়াল </h3>
+					<ul class="nav menu">
+<li class="item-111 parent"><a href="../php-basic.html" >পিএইচপি বেসিক</a></li><li class="item-112 parent"><a href="../advanced-php.html" >এডভান্সড পিএইচপি</a></li><li class="item-113 parent"><a href="../php-framework.html" >পিএইচপি ফ্রেমওয়ার্ক</a></li><li class="item-374 parent"><a href="../codeigniter.html" >কোডইগনাইটার</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ডেটাবেস</h3>
+					<ul class="nav menu">
+<li class="item-114 parent"><a href="../database-tutorials.html" >এস কিউয়েল (SQL)</a></li><li class="item-626 parent"><a href="../advanced-sql.html" >এডভান্স এসকিউয়েল</a></li><li class="item-376 parent"><a href="../database-design.html" >ডেটাবেস ডিজাইন</a></li><li class="item-190 parent"><a href="../php-database.html" >পিএইচপি এবং ডেটাবেস</a></li><li class="item-191 parent"><a href="../domain-hosting.html" >হোস্টিং টিউটোরিয়াল</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ফটোশপ </h3>
+					<ul class="nav menu">
+<li class="item-123 parent"><a href="../photoshop-basic.html" >ফটোশপ বেসিক</a></li><li class="item-122 parent"><a href="../advanced-photoshop.html" >এডভান্সড ফটোশপ</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> সিএমএস</h3>
+					<ul class="nav menu">
+<li class="item-278 parent"><a href="../joomla-tutorial.html" >জুমলা টিউটোরিয়াল</a></li><li class="item-585 parent"><a href="../wordpress-tutorials.html" >ওয়ার্ডপ্রেস টিউটোরিয়াল</a></li></ul>
+		</div>
+			<div class="moduletable tran-header">
+					<h3> ওয়েবমাস্টার </h3>
+					<ul class="nav menu">
+<li class="item-303 parent"><a href="../seo-tutorials.html" >সার্চ ইন্জিন অপটিমাইজেশন</a></li></ul>
+		</div>
+	
+						</div>
+					</div>
+					<!-- End Sidebar -->
+								<main id="content" role="main" class="span6">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					<div class="blog" itemscope itemtype="http://schema.org/Blog">
+			<div class="page-header">
+			<h1> ওয়েবকোচবিডি টিপসগুরু  </h1>
+		</div>
+	
+	
+	
+			<div class="category-desc clearfix">
+								</div>
+	
+	
+		
+	
+																	<div class="items-row cols-2 row-0 row-fluid clearfix">
+						<div class="span6">
+				<div class="item column-1"
+					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+					
+
+			<div class="page-header">
+
+							<h2 itemprop="name">
+											ভাল পিএইচপি কোডিং করতে ৬টি মসলা টিপস									</h2>
+			
+											</div>
+	
+	
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu">
+																<li class="email-icon"> <a href="../component/mailto/index0842.html?tmpl=component&amp;template=protostar&amp;link=a026010d0ee9e8b7c80a906cfed8d6fa682c8e94" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">Email</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+
+
+
+		<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													তথ্য							</dt>
+
+			
+			
+			
+					
+												<dd class="create">
+					<span class="icon-calendar"></span>
+					<time datetime="2014-10-29T16:47:19+06:00" itemprop="dateCreated">
+						রচিত হয়েছিল: 29 অক্টোবার 2014					</time>
+			</dd>			
+										<dd class="modified">
+				<span class="icon-calendar"></span>
+				<time datetime="2015-04-10T02:55:05+06:00" itemprop="dateModified">
+					সর্বশেষ আপডেট হয়েছে: 10 এপ্রিল 2015				</time>
+			</dd>			
+						</dl>
+
+
+
+ <p>অনেকদিন ধরে কোড করেন কিন্তু অনেক কৌশল অনেক সময় আজানা থাকে, এসব কৌশল অনুসরন করে কোড করলে আপনার প্রোগ্রামিং জীবন সহজতর হবে।</p>
+
+
+
+	
+<p class="readmore">
+	<a class="btn" href="52-programming-tips/280-be-a-good-php-coder.html" itemprop="url">
+		<span class="icon-chevron-right"></span>
+		আরও পড়ুন...	</a>
+</p>
+
+
+
+				</div>
+				<!-- end item -->
+							</div><!-- end span -->
+														<div class="span6">
+				<div class="item column-2"
+					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+					
+
+			<div class="page-header">
+
+							<h2 itemprop="name">
+											প্রোগ্রামার হতে ৫টি চাঞ্চল্যকর টিপস									</h2>
+			
+											</div>
+	
+	
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu">
+																<li class="email-icon"> <a href="../component/mailto/indexea28.html?tmpl=component&amp;template=protostar&amp;link=b3f42f504d393ac0b0b4ef76e8bd86c225af6a56" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">Email</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+
+
+
+		<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													তথ্য							</dt>
+
+			
+			
+			
+					
+												<dd class="create">
+					<span class="icon-calendar"></span>
+					<time datetime="2014-10-29T16:35:45+06:00" itemprop="dateCreated">
+						রচিত হয়েছিল: 29 অক্টোবার 2014					</time>
+			</dd>			
+										<dd class="modified">
+				<span class="icon-calendar"></span>
+				<time datetime="2014-10-30T11:13:47+06:00" itemprop="dateModified">
+					সর্বশেষ আপডেট হয়েছে: 30 অক্টোবার 2014				</time>
+			</dd>			
+						</dl>
+
+
+
+ <p>প্রোগ্রামিং শেখা খুবই সহজ যদি যথাযথ পদ্ধতিতে শেখেন। এসব কৌশল না জানার কারনে অনেকেই কিভাবে শুরু করা উচিৎ বুঝতে পারেন না। এরুপ কিছু টিপস নিয়ে আমাদের এই বিশেষ আর্টিকেল</p>
+
+
+
+	
+<p class="readmore">
+	<a class="btn" href="52-programming-tips/277-5tips-for-programmer.html" itemprop="url">
+		<span class="icon-chevron-right"></span>
+		আরও পড়ুন...	</a>
+</p>
+
+
+
+				</div>
+				<!-- end item -->
+							</div><!-- end span -->
+							</div><!-- end row -->
+																			<div class="items-row cols-2 row-1 row-fluid clearfix">
+						<div class="span6">
+				<div class="item column-1"
+					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+					
+
+			<div class="page-header">
+
+							<h2 itemprop="name">
+											কেন পিএইচপি বিখ্যাত?									</h2>
+			
+											</div>
+	
+	
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu">
+																<li class="email-icon"> <a href="../component/mailto/index8231.html?tmpl=component&amp;template=protostar&amp;link=d0afe101f9ec0e62aa4f93e7bd0eb9f21baa8040" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">Email</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+
+
+
+		<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													তথ্য							</dt>
+
+			
+			
+			
+					
+												<dd class="create">
+					<span class="icon-calendar"></span>
+					<time datetime="2014-10-29T16:41:11+06:00" itemprop="dateCreated">
+						রচিত হয়েছিল: 29 অক্টোবার 2014					</time>
+			</dd>			
+										<dd class="modified">
+				<span class="icon-calendar"></span>
+				<time datetime="2014-10-30T11:22:56+06:00" itemprop="dateModified">
+					সর্বশেষ আপডেট হয়েছে: 30 অক্টোবার 2014				</time>
+			</dd>			
+						</dl>
+
+
+
+ <p>পিএইচপি ল্যাংগুয়েজটি পৃথিবীতে মাত্র কয়েক বছর হয় এসছে। পিএইচপিকে "Big Boys" ল্যাংগুয়েজ বলা হয় পিএইচপি৫ ভার্সন আসার পর থেকে যেখানে জাভা, সি এসব ল্যাংগুয়েজকে অনেক আগে থেকে "Big Boys"<span class="userContent"> বলা হত। পিএইচপি৫ ভার্সন এসছে ২০০৪ সালে। এসেই বাজিমাৎ। বর্তমানে পৃথিবীতে প্রায় ৪০ ভাগ (প্রায় ২৫০ মিলিয়ন সাইট - ২০১৩ পর্যন্ত) ওয়েব এপ্লিকেশন (সাইট) একা পিএইচপিতে তৈরী বাকি সব ল্যাংগুয়েজ মিলে ৬০ ভাগ। হুট করে এসে এত বিখ্যাত হবার কারন আছে..</span></p>
+
+
+
+	
+<p class="readmore">
+	<a class="btn" href="52-programming-tips/278-why-php-renowned.html" itemprop="url">
+		<span class="icon-chevron-right"></span>
+		আরও পড়ুন...	</a>
+</p>
+
+
+
+				</div>
+				<!-- end item -->
+							</div><!-- end span -->
+														<div class="span6">
+				<div class="item column-2"
+					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+					
+
+			<div class="page-header">
+
+							<h2 itemprop="name">
+											পিএইচপির সেরা ৫টি বই									</h2>
+			
+											</div>
+	
+	
+<div class="icons">
+	
+					<div class="btn-group pull-right">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+								<ul class="dropdown-menu">
+																<li class="email-icon"> <a href="../component/mailto/index9fa3.html?tmpl=component&amp;template=protostar&amp;link=c860f2207877940c1e64d669cd075b493adf3c38" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">Email</a> </li>
+														</ul>
+			</div>
+		
+	</div>
+
+
+
+		<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													তথ্য							</dt>
+
+			
+			
+			
+					
+												<dd class="create">
+					<span class="icon-calendar"></span>
+					<time datetime="2014-10-29T16:53:10+06:00" itemprop="dateCreated">
+						রচিত হয়েছিল: 29 অক্টোবার 2014					</time>
+			</dd>			
+										<dd class="modified">
+				<span class="icon-calendar"></span>
+				<time datetime="2014-10-30T11:10:50+06:00" itemprop="dateModified">
+					সর্বশেষ আপডেট হয়েছে: 30 অক্টোবার 2014				</time>
+			</dd>			
+						</dl>
+
+
+
+ <p>পিএইচপির বইয়ের ব্যাপারে সকলেই জানতে আগ্রহী। নীলক্ষেতে বা কোন বইয়ের দোকোনে গিয়ে জিজ্ঞাসা করলেই তাদের কাছে থাকা বই ধরিয়ে দেয়। বাজারে পিএইচপির উপরে প্রচুর ফালতু বই চালু আছে। এসব বই কিনে কিছু বুঝতে পারেনা, পরে  প্রোগ্রামিং শেখার আগ্রহ হারিয়ে ফেলে। এজন্য আমাদের এই্ আর্টিকেল পৃথিবীর সেরা কিছু পিএইচপি বই নিয়ে-</p>
+
+
+
+	
+<p class="readmore">
+	<a class="btn" href="52-programming-tips/282-best-php-books.html" itemprop="url">
+		<span class="icon-chevron-right"></span>
+		আরও পড়ুন...	</a>
+</p>
+
+
+
+				</div>
+				<!-- end item -->
+							</div><!-- end span -->
+							</div><!-- end row -->
+						
+			<div class="items-more">
+			
+
+<ol class="nav nav-tabs nav-stacked">
+	<li>
+		<a href="52-programming-tips/300-tukro-info.html">
+			পিএইচপি, জেকোয়েরি এবং কোডইগনাইটারের টুকরো বাট হট তথ্য</a>
+	</li>
+	<li>
+		<a href="52-programming-tips/303-important-diff.html">
+			৩টি পার্থক্য না জানলে পস্তাবেন</a>
+	</li>
+	<li>
+		<a href="52-programming-tips/320-magic-info.html">
+			পিএইচপির ৫টি চমকপ্রদ তথ্য</a>
+	</li>
+</ol>
+		</div>
+	
+		</div>
+
+					
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<div class="well "><h3 class="page-header">হোস্টিং স্পন্সর</h3><div class="bannergroup">
+
+	<div class="banneritem">
+																																																															<a
+							href="https://www.w3space.net/bn/" target="_blank"
+							title="হোস্টিং স্পন্সর">
+							<img
+								src="../../10.175.165.11/SP173.254.204.125/SDwww.webcoachbd.com/Spimages/banners/sponsor.jpg/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID46A74E42EAC9B06A/RV200000/AVSkyController_3.1.2.50020/Br200/CL2-global/EI75/file.3d.delaye"
+								alt="হোস্টিং স্পন্সর"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+</div>
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+		</div>
+	</div>
+
+	<footer class="footer" role="contentinfo">
+		<div class="container-fluid">
+
+			<div class="footer1 pull-left">কপিরাইট &#169; 2015 Webcoachbd. সর্বস্বত্ব সংরক্ষিত। হোস্টিং স্পন্সর <a target="_blank" href="https://www.w3space.net/bn">W3space Technologies</a></div>
+			<p class="pull-right no-margin">
+				<a href="#top" id="back-top">
+					উপরে যান				</a>
+			</p>
+			
+		</div>
+	</footer>
+
+	
+     <a target="_blank" id="social_link1" href="https://www.facebook.com/Webcoachbd"><img src="../templates/protostar/images/facebook.png" alt="ফেইসবুক"/></a>
+        <a target="_blank" id="social_link2" href="https://www.twitter.com/Webcoach_BD"><img src="../templates/protostar/images/twitter.png" alt="টুইটার"/></a>
+</body>
+
+<!-- Mirrored from www.webcoachbd.com/tips-guru/52-programming-tips by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jun 2015 14:44:34 GMT -->
+</html>

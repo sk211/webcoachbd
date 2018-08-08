@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">ওয়েবকোচবিডি টিপসগুরু </title>
+	<subtitle type="text">ওয়েবকোচবিডি ওয়েব ডিজাইন ডেভেলপমেন্ট এবং প্রোগ্রামিং শেখার বাংলা সাইট। এইচটিএমএল সিএসএস থেকে পিএইচপি প্রোগ্রামিং এবং ডেটাবেজ ডিজাইন পর্যন্ত বিস্তারিত টিউটোরিয়াল। এছাড়া জাভস্ক্রিপ্ট জেকোয়েরি জুমলা ওয়ার্ডপ্রেস হোস্টিং ও কোডইগনাইটার ফ্রেমওয়ার্ক আর্টিকেল।</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.webcoachbd.com"/>
+	<id>http://www.webcoachbd.com/tips-guru/56-tech-intro</id>
+	<updated>2015-06-07T20:44:35+06:00</updated>
+	<author>
+		<name>Webcoachbd</name>
+		<email>rejoan.er@gmail.com</email>
+	</author>
+	<generator uri="http://joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.webcoachbd.com/tips-guru/56-tech-intro?format=feed&amp;type=atom"/>
+	<entry>
+		<title>হেইডি এসকিউয়েল (HeidiSQL)  ডেটাবেস ডিজাইন টুল</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/56-tech-intro/304-heidisql-db"/>
+		<published>2015-04-03T22:18:00+06:00</published>
+		<updated>2015-04-03T22:18:00+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/56-tech-intro/304-heidisql-db</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;HeidiSQL বা হেডিএসকিউয়েল একটি চমৎকার টুল ডেটাবেস ডিজাইনের জন্য। খুব হালকা, দ্রুত কাজ করা যায় এবং ডেটাবেস ম্যানেজ করতে যেসকল কাজ করতে হয় প্রায় সবই এটা দিয়ে করা যায়।&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/56-tech-intro/304-heidisql-db&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;HeidiSQL বা হেডিএসকিউয়েল একটি চমৎকার টুল ডেটাবেস ডিজাইনের জন্য। খুব হালকা, দ্রুত কাজ করা যায় এবং ডেটাবেস ম্যানেজ করতে যেসকল কাজ করতে হয় প্রায় সবই এটা দিয়ে করা যায়।&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/56-tech-intro/304-heidisql-db&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রযুক্তি পরিচিতি" />
+	</entry>
+	<entry>
+		<title>জেনে নিন ফেইসবুকে ব্যবহৃত প্রযুক্তিসমূহ</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/56-tech-intro/305-facebook-technology"/>
+		<published>2015-04-09T23:12:41+06:00</published>
+		<updated>2015-04-09T23:12:41+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/56-tech-intro/305-facebook-technology</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;পৃথিবীর সবচেয়ে বড় প্রজেক্ট চলছে পিএিইচপি (PHP) প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে। শুধু পিএইচপি নয় বরং আরও প্রায় ১ ডজন নিজস্ব প্রযুক্তি আছে ফেইসবুকের। ফেইসবুকের প্রযুক্তি জানতে দেখুন এই আর্টিকেলটি&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/56-tech-intro/305-facebook-technology&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;পৃথিবীর সবচেয়ে বড় প্রজেক্ট চলছে পিএিইচপি (PHP) প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে। শুধু পিএইচপি নয় বরং আরও প্রায় ১ ডজন নিজস্ব প্রযুক্তি আছে ফেইসবুকের। ফেইসবুকের প্রযুক্তি জানতে দেখুন এই আর্টিকেলটি&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/56-tech-intro/305-facebook-technology&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রযুক্তি পরিচিতি" />
+	</entry>
+</feed>

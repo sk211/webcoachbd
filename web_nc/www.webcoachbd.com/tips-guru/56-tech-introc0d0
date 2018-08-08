@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ওয়েবকোচবিডি টিপসগুরু </title>
+		<description><![CDATA[ওয়েবকোচবিডি ওয়েব ডিজাইন ডেভেলপমেন্ট এবং প্রোগ্রামিং শেখার বাংলা সাইট। এইচটিএমএল সিএসএস থেকে পিএইচপি প্রোগ্রামিং এবং ডেটাবেজ ডিজাইন পর্যন্ত বিস্তারিত টিউটোরিয়াল। এছাড়া জাভস্ক্রিপ্ট জেকোয়েরি জুমলা ওয়ার্ডপ্রেস হোস্টিং ও কোডইগনাইটার ফ্রেমওয়ার্ক আর্টিকেল।]]></description>
+		<link>http://www.webcoachbd.com/tips-guru/56-tech-intro</link>
+		<lastBuildDate>Sun, 07 Jun 2015 20:44:34 +0600</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.webcoachbd.com/tips-guru/56-tech-intro?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<managingEditor>rejoan.er@gmail.com (Webcoachbd)</managingEditor>
+		<item>
+			<title>হেইডি এসকিউয়েল (HeidiSQL)  ডেটাবেস ডিজাইন টুল</title>
+			<link>http://www.webcoachbd.com/tips-guru/56-tech-intro/304-heidisql-db</link>
+			<guid isPermaLink="true">http://www.webcoachbd.com/tips-guru/56-tech-intro/304-heidisql-db</guid>
+			<description><![CDATA[<p>HeidiSQL বা হেডিএসকিউয়েল একটি চমৎকার টুল ডেটাবেস ডিজাইনের জন্য। খুব হালকা, দ্রুত কাজ করা যায় এবং ডেটাবেস ম্যানেজ করতে যেসকল কাজ করতে হয় প্রায় সবই এটা দিয়ে করা যায়।</p>
+<p class="feed-readmore"><a target="_blank" href ="/tips-guru/56-tech-intro/304-heidisql-db">আরও পড়ুন...</a></p>]]></description>
+			<author>rejoan.er@gmail.com (রেজওয়ানুল আলম)</author>
+			<category>প্রযুক্তি পরিচিতি</category>
+			<pubDate>Fri, 03 Apr 2015 22:18:00 +0600</pubDate>
+		</item>
+		<item>
+			<title>জেনে নিন ফেইসবুকে ব্যবহৃত প্রযুক্তিসমূহ</title>
+			<link>http://www.webcoachbd.com/tips-guru/56-tech-intro/305-facebook-technology</link>
+			<guid isPermaLink="true">http://www.webcoachbd.com/tips-guru/56-tech-intro/305-facebook-technology</guid>
+			<description><![CDATA[<p>পৃথিবীর সবচেয়ে বড় প্রজেক্ট চলছে পিএিইচপি (PHP) প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে। শুধু পিএইচপি নয় বরং আরও প্রায় ১ ডজন নিজস্ব প্রযুক্তি আছে ফেইসবুকের। ফেইসবুকের প্রযুক্তি জানতে দেখুন এই আর্টিকেলটি</p>
+<p class="feed-readmore"><a target="_blank" href ="/tips-guru/56-tech-intro/305-facebook-technology">আরও পড়ুন...</a></p>]]></description>
+			<author>rejoan.er@gmail.com (রেজওয়ানুল আলম)</author>
+			<category>প্রযুক্তি পরিচিতি</category>
+			<pubDate>Thu, 09 Apr 2015 23:12:41 +0600</pubDate>
+		</item>
+	</channel>
+</rss>

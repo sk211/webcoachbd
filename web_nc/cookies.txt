@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.webcoachbd.com	TRUE	/	FALSE	1999999999	86a5f8be7a93605f4a324cc276bf4b8c	66d657574dff63dc3f77443ab492cd26
+www.webcoachbd.com	TRUE	/	FALSE	1999999999	PHPSESSID	8ed656c072c4b7f5e0c30fa30d1e24ff
+

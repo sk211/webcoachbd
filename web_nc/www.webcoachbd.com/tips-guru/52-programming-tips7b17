@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">ওয়েবকোচবিডি টিপসগুরু </title>
+	<subtitle type="text">ওয়েবকোচবিডি ওয়েব ডিজাইন ডেভেলপমেন্ট এবং প্রোগ্রামিং শেখার বাংলা সাইট। এইচটিএমএল সিএসএস থেকে পিএইচপি প্রোগ্রামিং এবং ডেটাবেজ ডিজাইন পর্যন্ত বিস্তারিত টিউটোরিয়াল। এছাড়া জাভস্ক্রিপ্ট জেকোয়েরি জুমলা ওয়ার্ডপ্রেস হোস্টিং ও কোডইগনাইটার ফ্রেমওয়ার্ক আর্টিকেল।</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.webcoachbd.com"/>
+	<id>http://www.webcoachbd.com/tips-guru/52-programming-tips</id>
+	<updated>2015-06-07T20:44:24+06:00</updated>
+	<author>
+		<name>Webcoachbd</name>
+		<email>rejoan.er@gmail.com</email>
+	</author>
+	<generator uri="http://joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.webcoachbd.com/tips-guru/52-programming-tips?format=feed&amp;type=atom"/>
+	<entry>
+		<title>ভাল পিএইচপি কোডিং করতে ৬টি মসলা টিপস</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/280-be-a-good-php-coder"/>
+		<published>2014-10-29T16:47:19+06:00</published>
+		<updated>2014-10-29T16:47:19+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/280-be-a-good-php-coder</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;অনেকদিন ধরে কোড করেন কিন্তু অনেক কৌশল অনেক সময় আজানা থাকে, এসব কৌশল অনুসরন করে কোড করলে আপনার প্রোগ্রামিং জীবন সহজতর হবে।&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/280-be-a-good-php-coder&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;অনেকদিন ধরে কোড করেন কিন্তু অনেক কৌশল অনেক সময় আজানা থাকে, এসব কৌশল অনুসরন করে কোড করলে আপনার প্রোগ্রামিং জীবন সহজতর হবে।&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/280-be-a-good-php-coder&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>কেন পিএইচপি বিখ্যাত?</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/278-why-php-renowned"/>
+		<published>2014-10-29T16:41:11+06:00</published>
+		<updated>2014-10-29T16:41:11+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/278-why-php-renowned</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;পিএইচপি ল্যাংগুয়েজটি পৃথিবীতে মাত্র কয়েক বছর হয় এসছে। পিএইচপিকে &quot;Big Boys&quot; ল্যাংগুয়েজ বলা হয় পিএইচপি৫ ভার্সন আসার পর থেকে যেখানে জাভা, সি এসব ল্যাংগুয়েজকে অনেক আগে থেকে &quot;Big Boys&quot;&lt;span class=&quot;userContent&quot;&gt; বলা হত। পিএইচপি৫ ভার্সন এসছে ২০০৪ সালে। এসেই বাজিমাৎ। বর্তমানে পৃথিবীতে প্রায় ৪০ ভাগ (প্রায় ২৫০ মিলিয়ন সাইট - ২০১৩ পর্যন্ত) ওয়েব এপ্লিকেশন (সাইট) একা পিএইচপিতে তৈরী বাকি সব ল্যাংগুয়েজ মিলে ৬০ ভাগ। হুট করে এসে এত বিখ্যাত হবার কারন আছে..&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/278-why-php-renowned&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;পিএইচপি ল্যাংগুয়েজটি পৃথিবীতে মাত্র কয়েক বছর হয় এসছে। পিএইচপিকে &quot;Big Boys&quot; ল্যাংগুয়েজ বলা হয় পিএইচপি৫ ভার্সন আসার পর থেকে যেখানে জাভা, সি এসব ল্যাংগুয়েজকে অনেক আগে থেকে &quot;Big Boys&quot;&lt;span class=&quot;userContent&quot;&gt; বলা হত। পিএইচপি৫ ভার্সন এসছে ২০০৪ সালে। এসেই বাজিমাৎ। বর্তমানে পৃথিবীতে প্রায় ৪০ ভাগ (প্রায় ২৫০ মিলিয়ন সাইট - ২০১৩ পর্যন্ত) ওয়েব এপ্লিকেশন (সাইট) একা পিএইচপিতে তৈরী বাকি সব ল্যাংগুয়েজ মিলে ৬০ ভাগ। হুট করে এসে এত বিখ্যাত হবার কারন আছে..&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/278-why-php-renowned&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>প্রোগ্রামার হতে ৫টি চাঞ্চল্যকর টিপস</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/277-5tips-for-programmer"/>
+		<published>2014-10-29T16:35:45+06:00</published>
+		<updated>2014-10-29T16:35:45+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/277-5tips-for-programmer</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;প্রোগ্রামিং শেখা খুবই সহজ যদি যথাযথ পদ্ধতিতে শেখেন। এসব কৌশল না জানার কারনে অনেকেই কিভাবে শুরু করা উচিৎ বুঝতে পারেন না। এরুপ কিছু টিপস নিয়ে আমাদের এই বিশেষ আর্টিকেল&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/277-5tips-for-programmer&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;প্রোগ্রামিং শেখা খুবই সহজ যদি যথাযথ পদ্ধতিতে শেখেন। এসব কৌশল না জানার কারনে অনেকেই কিভাবে শুরু করা উচিৎ বুঝতে পারেন না। এরুপ কিছু টিপস নিয়ে আমাদের এই বিশেষ আর্টিকেল&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/277-5tips-for-programmer&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>পিএইচপির সেরা ৫টি বই</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/282-best-php-books"/>
+		<published>2014-10-29T16:53:10+06:00</published>
+		<updated>2014-10-29T16:53:10+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/282-best-php-books</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;পিএইচপির বইয়ের ব্যাপারে সকলেই জানতে আগ্রহী। নীলক্ষেতে বা কোন বইয়ের দোকোনে গিয়ে জিজ্ঞাসা করলেই তাদের কাছে থাকা বই ধরিয়ে দেয়। বাজারে পিএইচপির উপরে প্রচুর ফালতু বই চালু আছে। এসব বই কিনে কিছু বুঝতে পারেনা, পরে  প্রোগ্রামিং শেখার আগ্রহ হারিয়ে ফেলে। এজন্য আমাদের এই্ আর্টিকেল পৃথিবীর সেরা কিছু পিএইচপি বই নিয়ে-&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/282-best-php-books&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;পিএইচপির বইয়ের ব্যাপারে সকলেই জানতে আগ্রহী। নীলক্ষেতে বা কোন বইয়ের দোকোনে গিয়ে জিজ্ঞাসা করলেই তাদের কাছে থাকা বই ধরিয়ে দেয়। বাজারে পিএইচপির উপরে প্রচুর ফালতু বই চালু আছে। এসব বই কিনে কিছু বুঝতে পারেনা, পরে  প্রোগ্রামিং শেখার আগ্রহ হারিয়ে ফেলে। এজন্য আমাদের এই্ আর্টিকেল পৃথিবীর সেরা কিছু পিএইচপি বই নিয়ে-&lt;/p&gt;
+&lt;p class=&quot;feed-readmore&quot;&gt;&lt;a target=&quot;_blank&quot; href =&quot;/tips-guru/52-programming-tips/282-best-php-books&quot;&gt;আরও পড়ুন...&lt;/a&gt;&lt;/p&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>পিএইচপি, জেকোয়েরি এবং কোডইগনাইটারের টুকরো বাট হট তথ্য</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/300-tukro-info"/>
+		<published>2015-01-16T11:47:31+06:00</published>
+		<updated>2015-01-16T11:47:31+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/300-tukro-info</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;তথ্য ১&lt;/strong&gt;&lt;br /&gt;return স্টেটমেন্ট স্ক্রিপ্টের যেখানেই দিবেন সেখান পর্যন্ত এসে কোড এক্সিকিউশন থেমে যাবে। return 0, return false বা শুধু return দিলে একি কাজ হবে। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:php&quot;}&lt;/p&gt;
+&lt;p&gt;&amp;lt;?php&lt;/p&gt;
+&lt;p&gt;$x = 9;&lt;/p&gt;
+&lt;p&gt;$y = 5;&lt;/p&gt;
+&lt;p&gt;return;&lt;/p&gt;
+&lt;p&gt;//followings will not be executed&lt;/p&gt;
+&lt;p&gt;if($x &amp;gt; $y){&lt;/p&gt;
+&lt;p&gt;    echo 'stuff';&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;?&amp;gt;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ২ &lt;/strong&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;SQL কোয়েরিতে কখনও প্রশ্নবোধক চিহ্ন (?) দেখেছেন? এটাকে বলে placeholder.&lt;br /&gt;সাধারনত PDO তে কোয়েরি লেখার সময় এই চিহ্ন দিয়ে প্যারামিটারের কাজ করা হয়। অর্থ্যাৎ কোয়েরিতে এটা থাকা মানে সেখানে যেকোন মান পাঠাতে পারবেন। যেমন&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:sql&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&amp;lt;?php&lt;br /&gt;$stm = $dbh-&amp;gt;prepare('SELECT *FROM users WHERE salary &amp;lt; ? AND age = ?');&lt;br /&gt;$stm-&amp;gt;execute(array('45k', '30'));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;//now execute and fetch result&lt;br /&gt;?&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৩&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;জেকোয়েরি দিয়ে data এট্রিবিউটের মান ধরার সময় $('#user_id').data('agent_id') এভাবে অবশ্যই ধরবেন না যখন data এট্রিবিউটের মান আপডেট হবে on the fly. বরং ধরতে হবে এভাবে $('#user_id').attr('data-agent_&lt;wbr /&gt;id');&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;var user_id = parseInt($('#user_id').attr('data-agent_id'));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৪&lt;/strong&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;জেকোয়েরিতে যদি কখনও integer কে string বানানোর দরকার হয় তাহলে integer সামনে শুধু একটা কোটেশন দিয়ে দিন। যেমন var x = 9; x = ''+9;&lt;br /&gt;প্রথমে x পূর্নসংখ্যা ছিল কিন্তু ২য় বার স্ট্রিং হয়ে গেছে। বিশ্বাস না হয় টেস্ট করে দেখুন ফায়ারবাগে। x এর মান এখন '9' হয়ে গেছে। যেমন&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;var x = 9;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;x = ''+9;&lt;/p&gt;
+&lt;p&gt;//now x is '9'&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৫&lt;/strong&gt; &lt;br /&gt;যখন ডাইনামিক কনটেন্ট এ কোন ইভেন্ট ঘটলে কিছু করতে চান তখন সাধারনত on দিয়ে কাজ করেন তবে মাঝে মাঝে এটা কাজ করবেনা তখন live দিয়ে কাজ করতে হবে। যেমন &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;$('#dynamic_content').live('click',function(){&lt;br /&gt;    //here code&lt;br /&gt;});&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;তবে আগে থেকে migrate লাইব্রেরিটি (&lt;a href=&quot;http://jquery.com/download/#jquery-migrate-plugin&quot; target=&quot;_blank&quot; rel=&quot;alternate&quot;&gt;ডাউনলোড লিংক&lt;/a&gt;) যোগ করে নিতে হবে live ব্যবহার করলে।&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;শেষ তথ্য&lt;/strong&gt; &lt;br /&gt;কোডইগনাইটারে কখনই config.php তে base_url এ হাত দিবেন না। যখন রিসোর্সের (যেমন ইমেজ) লিংক দিবেন তখন base_url('assets/css/&lt;wbr /&gt;style.css') আর যখন সাইটের লিংক দিতে হবে তখন site_url('controller/method') এভাবে দিলেই কোডইগনাইটার অটোমেটিক আসল লিংক বের করে নিবে, লোকাল কিংবা প্রডাকশন সার্ভারে।&lt;/span&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;তথ্য ১&lt;/strong&gt;&lt;br /&gt;return স্টেটমেন্ট স্ক্রিপ্টের যেখানেই দিবেন সেখান পর্যন্ত এসে কোড এক্সিকিউশন থেমে যাবে। return 0, return false বা শুধু return দিলে একি কাজ হবে। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:php&quot;}&lt;/p&gt;
+&lt;p&gt;&amp;lt;?php&lt;/p&gt;
+&lt;p&gt;$x = 9;&lt;/p&gt;
+&lt;p&gt;$y = 5;&lt;/p&gt;
+&lt;p&gt;return;&lt;/p&gt;
+&lt;p&gt;//followings will not be executed&lt;/p&gt;
+&lt;p&gt;if($x &amp;gt; $y){&lt;/p&gt;
+&lt;p&gt;    echo 'stuff';&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;?&amp;gt;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ২ &lt;/strong&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;SQL কোয়েরিতে কখনও প্রশ্নবোধক চিহ্ন (?) দেখেছেন? এটাকে বলে placeholder.&lt;br /&gt;সাধারনত PDO তে কোয়েরি লেখার সময় এই চিহ্ন দিয়ে প্যারামিটারের কাজ করা হয়। অর্থ্যাৎ কোয়েরিতে এটা থাকা মানে সেখানে যেকোন মান পাঠাতে পারবেন। যেমন&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:sql&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&amp;lt;?php&lt;br /&gt;$stm = $dbh-&amp;gt;prepare('SELECT *FROM users WHERE salary &amp;lt; ? AND age = ?');&lt;br /&gt;$stm-&amp;gt;execute(array('45k', '30'));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;//now execute and fetch result&lt;br /&gt;?&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৩&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;জেকোয়েরি দিয়ে data এট্রিবিউটের মান ধরার সময় $('#user_id').data('agent_id') এভাবে অবশ্যই ধরবেন না যখন data এট্রিবিউটের মান আপডেট হবে on the fly. বরং ধরতে হবে এভাবে $('#user_id').attr('data-agent_&lt;wbr /&gt;id');&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;var user_id = parseInt($('#user_id').attr('data-agent_id'));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৪&lt;/strong&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;জেকোয়েরিতে যদি কখনও integer কে string বানানোর দরকার হয় তাহলে integer সামনে শুধু একটা কোটেশন দিয়ে দিন। যেমন var x = 9; x = ''+9;&lt;br /&gt;প্রথমে x পূর্নসংখ্যা ছিল কিন্তু ২য় বার স্ট্রিং হয়ে গেছে। বিশ্বাস না হয় টেস্ট করে দেখুন ফায়ারবাগে। x এর মান এখন '9' হয়ে গেছে। যেমন&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;var x = 9;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;x = ''+9;&lt;/p&gt;
+&lt;p&gt;//now x is '9'&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;&lt;strong&gt;তথ্য ৫&lt;/strong&gt; &lt;br /&gt;যখন ডাইনামিক কনটেন্ট এ কোন ইভেন্ট ঘটলে কিছু করতে চান তখন সাধারনত on দিয়ে কাজ করেন তবে মাঝে মাঝে এটা কাজ করবেনা তখন live দিয়ে কাজ করতে হবে। যেমন &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{codecitation class=&quot;brush:javascript&quot;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;$('#dynamic_content').live('click',function(){&lt;br /&gt;    //here code&lt;br /&gt;});&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;{/codecitation}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;&lt;br /&gt;তবে আগে থেকে migrate লাইব্রেরিটি (&lt;a href=&quot;http://jquery.com/download/#jquery-migrate-plugin&quot; target=&quot;_blank&quot; rel=&quot;alternate&quot;&gt;ডাউনলোড লিংক&lt;/a&gt;) যোগ করে নিতে হবে live ব্যবহার করলে।&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;শেষ তথ্য&lt;/strong&gt; &lt;br /&gt;কোডইগনাইটারে কখনই config.php তে base_url এ হাত দিবেন না। যখন রিসোর্সের (যেমন ইমেজ) লিংক দিবেন তখন base_url('assets/css/&lt;wbr /&gt;style.css') আর যখন সাইটের লিংক দিতে হবে তখন site_url('controller/method') এভাবে দিলেই কোডইগনাইটার অটোমেটিক আসল লিংক বের করে নিবে, লোকাল কিংবা প্রডাকশন সার্ভারে।&lt;/span&gt;&lt;/p&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>৩টি পার্থক্য না জানলে পস্তাবেন</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/303-important-diff"/>
+		<published>2015-04-03T01:07:02+06:00</published>
+		<updated>2015-04-03T01:07:02+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/303-important-diff</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;strong&gt;১. DELETE, DROP এবং TRUNCATE :&lt;/strong&gt;&lt;br /&gt;================================================&lt;br /&gt;DELETE মুলত ব্যবহার করা হয় টেবিলের ডেটা মোছার জন্য। এখানে WHERE ক্লজ ব্যবহার করে নির্দিষ্ট ডেটা মোছা যায়। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;/p&gt;
+&lt;p&gt;DELETE FROM table_name WHERE id = 1;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;এভাবে দিলে ১ নম্বর সারিটি টেবিল থেকে মুছে যাবে। টেবিলের স্ট্রাকচার নষ্ট হবেনা এমনকি auto incremented কলাম থাকলে সেটাও রিসেট হবেনা।&lt;/p&gt;
+&lt;div class=&quot;text_exposed_show&quot;&gt;
+&lt;p&gt;DROP আসলে ব্যবহার হয় তখন যখন একটি টেবিল আর প্রয়োজন নেই। টেবিলটির স্ট্রাকচার সহ সব মুছে যাবে ডেটা সহ। আর ফেরত আনা যাবেনা। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;br /&gt;DROP TABLE table_name;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt;TRUNCATE দিয়ে DELETE এর কাজ করা হয় তবে পার্থক্য হল এখানে auto-incrementing কলাম থাকলে সেটার মান রিসেট হয়ে আবার ১ থেকে শুরু হবে এবং সব ডেটা মুছে যাবে। অনেকটা এমন হল যেন আপনি একটা নতুন টেবিল তৈরী করলেন। এটা DELETE এর চেয়ে দ্রুততর। তখনি ব্যবহার করুন যখন যখন টেবিল সম্পূর্ন ফাকা করতে হবে। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;br /&gt;TRUNCATE TABLE table_name;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;২. empty এবং null:&lt;/strong&gt; &lt;br /&gt;==============================================&lt;/p&gt;
+&lt;p&gt;পিএইচপিতে একটা ভেরিয়েবলের মান যদি NULL হয় তার অর্থ হল ভেরিয়েবলটি মেমরিতে কোন জায়গা নেয়নি। অপরদিকে কোন ভেরিয়েবলের মান empty হওয়ার অর্থ হল এটার একটা মান আছে এমনকি মেমরিতে এটা জায়গা নিবে। $x = ''; এটা empty কিন্তু NULL নয়। কোন ভেরিয়েবলের মান যদি NULL হয় তাহলে isset() ফাংশন দিয়ে সেটা চেক করলে মান FALSE রিটার্ন করবে। সোজা কথা NULL মানে কিছুইনা। কোন ভেরিয়েবল initialize না করলে পিএইচপিতে অটোমেটিক সেই ভেরিয়েবলটির মান NULL ধরে। আর empty হল যেটার অস্তিত্ব আছে কিন্তু ফাকা। $x = '', $x = array(), $x = 0 এসব empty ভেরিয়েবল।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;৩. git এবং github&lt;/strong&gt;&lt;br /&gt;==========================================&lt;/p&gt;
+&lt;p&gt;git হল কোডের ইতিহাস বা history ম্যানেজ করার একটি টুল। আগে সোর্স কোড ম্যানেজ করার জন্য বিভিন্ন SVN ব্যবহার করা হত যেমন tortoise. তবে branching, merging ইত্যাদি সুবিধার কারনে এখন git ই বেশি ব্যবহার হচ্ছে।&lt;/p&gt;
+&lt;p&gt;আর github হল হোস্টিং প্রোভাইডার। git দিয়ে তৈরী করা প্রজেক্ট/রিপজিটরি এখানে হোস্ট করা যায়। open source প্রজেক্ট হলে সোর্স কোড ফ্রি হোস্ট করতে পারবেন। আর যদি নিজের কোড পাবলিককে দেখাতে না চান তাহলে মাসিক বিভিন্ন প্যাকেজ আছে github এর।&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;strong&gt;১. DELETE, DROP এবং TRUNCATE :&lt;/strong&gt;&lt;br /&gt;================================================&lt;br /&gt;DELETE মুলত ব্যবহার করা হয় টেবিলের ডেটা মোছার জন্য। এখানে WHERE ক্লজ ব্যবহার করে নির্দিষ্ট ডেটা মোছা যায়। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;/p&gt;
+&lt;p&gt;DELETE FROM table_name WHERE id = 1;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;এভাবে দিলে ১ নম্বর সারিটি টেবিল থেকে মুছে যাবে। টেবিলের স্ট্রাকচার নষ্ট হবেনা এমনকি auto incremented কলাম থাকলে সেটাও রিসেট হবেনা।&lt;/p&gt;
+&lt;div class=&quot;text_exposed_show&quot;&gt;
+&lt;p&gt;DROP আসলে ব্যবহার হয় তখন যখন একটি টেবিল আর প্রয়োজন নেই। টেবিলটির স্ট্রাকচার সহ সব মুছে যাবে ডেটা সহ। আর ফেরত আনা যাবেনা। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;br /&gt;DROP TABLE table_name;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt;TRUNCATE দিয়ে DELETE এর কাজ করা হয় তবে পার্থক্য হল এখানে auto-incrementing কলাম থাকলে সেটার মান রিসেট হয়ে আবার ১ থেকে শুরু হবে এবং সব ডেটা মুছে যাবে। অনেকটা এমন হল যেন আপনি একটা নতুন টেবিল তৈরী করলেন। এটা DELETE এর চেয়ে দ্রুততর। তখনি ব্যবহার করুন যখন যখন টেবিল সম্পূর্ন ফাকা করতে হবে। যেমন&lt;/p&gt;
+&lt;p&gt;{codecitation class=&quot;brush:sql&quot;}&lt;br /&gt;TRUNCATE TABLE table_name;&lt;/p&gt;
+&lt;p&gt;{/codecitation}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;২. empty এবং null:&lt;/strong&gt; &lt;br /&gt;==============================================&lt;/p&gt;
+&lt;p&gt;পিএইচপিতে একটা ভেরিয়েবলের মান যদি NULL হয় তার অর্থ হল ভেরিয়েবলটি মেমরিতে কোন জায়গা নেয়নি। অপরদিকে কোন ভেরিয়েবলের মান empty হওয়ার অর্থ হল এটার একটা মান আছে এমনকি মেমরিতে এটা জায়গা নিবে। $x = ''; এটা empty কিন্তু NULL নয়। কোন ভেরিয়েবলের মান যদি NULL হয় তাহলে isset() ফাংশন দিয়ে সেটা চেক করলে মান FALSE রিটার্ন করবে। সোজা কথা NULL মানে কিছুইনা। কোন ভেরিয়েবল initialize না করলে পিএইচপিতে অটোমেটিক সেই ভেরিয়েবলটির মান NULL ধরে। আর empty হল যেটার অস্তিত্ব আছে কিন্তু ফাকা। $x = '', $x = array(), $x = 0 এসব empty ভেরিয়েবল।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;৩. git এবং github&lt;/strong&gt;&lt;br /&gt;==========================================&lt;/p&gt;
+&lt;p&gt;git হল কোডের ইতিহাস বা history ম্যানেজ করার একটি টুল। আগে সোর্স কোড ম্যানেজ করার জন্য বিভিন্ন SVN ব্যবহার করা হত যেমন tortoise. তবে branching, merging ইত্যাদি সুবিধার কারনে এখন git ই বেশি ব্যবহার হচ্ছে।&lt;/p&gt;
+&lt;p&gt;আর github হল হোস্টিং প্রোভাইডার। git দিয়ে তৈরী করা প্রজেক্ট/রিপজিটরি এখানে হোস্ট করা যায়। open source প্রজেক্ট হলে সোর্স কোড ফ্রি হোস্ট করতে পারবেন। আর যদি নিজের কোড পাবলিককে দেখাতে না চান তাহলে মাসিক বিভিন্ন প্যাকেজ আছে github এর।&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+	<entry>
+		<title>পিএইচপির ৫টি চমকপ্রদ তথ্য</title>
+		<link rel="alternate" type="text/html" href="http://www.webcoachbd.com/tips-guru/52-programming-tips/320-magic-info"/>
+		<published>2015-06-01T00:40:28+06:00</published>
+		<updated>2015-06-01T00:40:28+06:00</updated>
+		<id>http://www.webcoachbd.com/tips-guru/52-programming-tips/320-magic-info</id>
+		<author>
+			<name>রেজওয়ানুল আলম</name>
+			<email>rejoan.er@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p&gt;১. পিএইচপির বর্তমান ভার্সন হল ৫.৬ আর এ বছরের শেষের দিকে আসছে পিএইচপি ৭ ভার্সন। এ ভার্সনের প্রধান দুটি ফিচার হল&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ইউনিকোড সাপোর্ট:&lt;/strong&gt; পিএইচপির নতুন ভার্সনে বাংলাতেও ভেরিয়েবল ফাংশন ইত্যাদি লেখা যাবে। অর্থ্যাৎ পিএইচপি এখন ইউনিকোড সাপোর্টেড হতে যাচ্ছে।&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;দ্রুততা:&lt;/strong&gt; আগের থেকে পিএইচপির এই ভার্সনের পারফরমেন্স প্রায় ২ গুন হয়ে যাবে। ফেসবুকের হিপহপ কমপাইলারের মত প্রযুক্তি থাকছে এখানে। একটা কনফারেন্সে পিএইচপির মুল ৩ জন নির্মাতার মধ্যে ১জন বলেছেন &quot;ফেসবুকের হিপহপ আমাদের প্রযুক্তিটির competitor হবে&lt;span class=&quot;text_exposed_show&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;text_exposed_show&quot;&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;২. পৃথিবীর সর্বোচ্চ উদ্ভাবনী ক্ষমতাসম্পন্ন ব্যাক্তিদের মধ্যে ২ জন পিএইচপির নির্মাতা, অ্যান্ডি গাটম্যান এবং রাসমাস লার্ডফ (MIT রিপোর্ট অনুযায়ী)। তবে মজার ব্যাপার হল এদের একজনের লেখা পিএইচপির একটি বই আছে (নাম power php programming) তবে সেটা বেশি চলেনা।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৩. পিএইচপি দিয়েও ডেস্কটপ এপ্লিকেশন বানানো যায়। অন্যান্য ওয়েব ল্যাংগুয়েজের মত পিএইচপিরও একটা ল্যাংগুয়েজ bindings আছে GIMP toolkit এর জন্য। &lt;a href=&quot;http://l.facebook.com/l.php?u=http%3A%2F%2Fgtk.php.net%2F&amp;amp;h=cAQFo7u6N&amp;amp;enc=AZPZpuiRzdlSlEiFmvZWzQUHSXxtX8K9mbYluU8ofK-ouiav6YTO6mTkles8i3UsgTKVsYOAvn8FmWQHPmQCsUCKSTzvG-p5p0qZaCttakWE_K9QJ67yhEJP7FFeLb9R69hSBe-z7qi4YLlDYebSp4tr4dICsBs2NEdLlGGla41s1zlRApZ8y_WWKtER7SFFT2fLrazSzxqb9v-5BgvheYtv&amp;amp;s=1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;gtk.php.net&lt;/a&gt; এ আরও বিস্তারিত আছে।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৪. বর্তমানে পৃথিবীতে প্রায় ৫০ ভাগ ওয়েবসাইট, ওয়েব এপ্লিকেশন পিএইচপি দিয়ে বানানো, অন্যান্য সব ল্যাংগুয়েজ মিলে বাকি অংশ। পৃথিবীর বিখ্যাত যেসব কোম্পানী পিএইচপি ব্যবহার করে তাদের মধ্যে আছে yahoo (yahoo bookmark, yahoo answers, feedback এসব পিএইচপি দিয়ে বানানো), magento (পৃথিবীতে যেসব এন্টারপ্রাইজ লেভেলের ইকমার্স সাইট দেখতেছেন এগুলির বেশির ভাগ ম্যাজেন্টো দিয়ে বানানো, ম্যাজেন্টো CMS টা আবার জেন্ড ফ্রেমওয়ার্ক দিয়ে বানানো), wikipedia, facebook, wordpress ইত্যাদি।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৫. আউটসোর্সিং সাইট যেমন ওডেস্ক (এখন নাম হয়েছে আপওয়ার্ক), ফ্রিল্যান্সার ইত্যাদিতে প্রায় ৫০০ ধরনের কাজ পাওয়া যায়। এর মধ্যে ৭০% ভাগেরও বেশি পিএইচপির কাজ।&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;p&gt;১. পিএইচপির বর্তমান ভার্সন হল ৫.৬ আর এ বছরের শেষের দিকে আসছে পিএইচপি ৭ ভার্সন। এ ভার্সনের প্রধান দুটি ফিচার হল&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ইউনিকোড সাপোর্ট:&lt;/strong&gt; পিএইচপির নতুন ভার্সনে বাংলাতেও ভেরিয়েবল ফাংশন ইত্যাদি লেখা যাবে। অর্থ্যাৎ পিএইচপি এখন ইউনিকোড সাপোর্টেড হতে যাচ্ছে।&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;দ্রুততা:&lt;/strong&gt; আগের থেকে পিএইচপির এই ভার্সনের পারফরমেন্স প্রায় ২ গুন হয়ে যাবে। ফেসবুকের হিপহপ কমপাইলারের মত প্রযুক্তি থাকছে এখানে। একটা কনফারেন্সে পিএইচপির মুল ৩ জন নির্মাতার মধ্যে ১জন বলেছেন &quot;ফেসবুকের হিপহপ আমাদের প্রযুক্তিটির competitor হবে&lt;span class=&quot;text_exposed_show&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;text_exposed_show&quot;&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;২. পৃথিবীর সর্বোচ্চ উদ্ভাবনী ক্ষমতাসম্পন্ন ব্যাক্তিদের মধ্যে ২ জন পিএইচপির নির্মাতা, অ্যান্ডি গাটম্যান এবং রাসমাস লার্ডফ (MIT রিপোর্ট অনুযায়ী)। তবে মজার ব্যাপার হল এদের একজনের লেখা পিএইচপির একটি বই আছে (নাম power php programming) তবে সেটা বেশি চলেনা।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৩. পিএইচপি দিয়েও ডেস্কটপ এপ্লিকেশন বানানো যায়। অন্যান্য ওয়েব ল্যাংগুয়েজের মত পিএইচপিরও একটা ল্যাংগুয়েজ bindings আছে GIMP toolkit এর জন্য। &lt;a href=&quot;http://l.facebook.com/l.php?u=http%3A%2F%2Fgtk.php.net%2F&amp;amp;h=cAQFo7u6N&amp;amp;enc=AZPZpuiRzdlSlEiFmvZWzQUHSXxtX8K9mbYluU8ofK-ouiav6YTO6mTkles8i3UsgTKVsYOAvn8FmWQHPmQCsUCKSTzvG-p5p0qZaCttakWE_K9QJ67yhEJP7FFeLb9R69hSBe-z7qi4YLlDYebSp4tr4dICsBs2NEdLlGGla41s1zlRApZ8y_WWKtER7SFFT2fLrazSzxqb9v-5BgvheYtv&amp;amp;s=1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;gtk.php.net&lt;/a&gt; এ আরও বিস্তারিত আছে।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৪. বর্তমানে পৃথিবীতে প্রায় ৫০ ভাগ ওয়েবসাইট, ওয়েব এপ্লিকেশন পিএইচপি দিয়ে বানানো, অন্যান্য সব ল্যাংগুয়েজ মিলে বাকি অংশ। পৃথিবীর বিখ্যাত যেসব কোম্পানী পিএইচপি ব্যবহার করে তাদের মধ্যে আছে yahoo (yahoo bookmark, yahoo answers, feedback এসব পিএইচপি দিয়ে বানানো), magento (পৃথিবীতে যেসব এন্টারপ্রাইজ লেভেলের ইকমার্স সাইট দেখতেছেন এগুলির বেশির ভাগ ম্যাজেন্টো দিয়ে বানানো, ম্যাজেন্টো CMS টা আবার জেন্ড ফ্রেমওয়ার্ক দিয়ে বানানো), wikipedia, facebook, wordpress ইত্যাদি।&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;৫. আউটসোর্সিং সাইট যেমন ওডেস্ক (এখন নাম হয়েছে আপওয়ার্ক), ফ্রিল্যান্সার ইত্যাদিতে প্রায় ৫০০ ধরনের কাজ পাওয়া যায়। এর মধ্যে ৭০% ভাগেরও বেশি পিএইচপির কাজ।&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="প্রোগ্রামিং টিপস" />
+	</entry>
+</feed>
